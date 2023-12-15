@@ -1,0 +1,17 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="76" viewBox="0 0 76 76">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.146" x2="0.854" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dc40ed"/>
+      <stop offset="1" stop-color="#850f92"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.035" y1="0.152" x2="0.828" y2="0.828" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dc40ed"/>
+      <stop offset="1" stop-color="#490a50" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <g id="_02.number_1" data-name="02.number_1">
+    <circle id="background" cx="38" cy="38" r="38" fill="url(#linear-gradient)"/>
+    <path id="Trazado_818164" data-name="Trazado 818164" d="M258.654,183.251A38.339,38.339,0,0,1,240.72,203.7l-18.669-18.666,3.182-13.059L217,163.743l13.24-8.913Z" transform="translate(-186.096 -131.715)" fill="url(#linear-gradient-2)"/>
+    <path id="Trazado_818165" data-name="Trazado 818165" d="M213.016,162.586l-5.051,1.157-1.586-6.427,8.783-2.486h6.042v30.208h-8.189Z" transform="translate(-177.061 -131.715)" fill="#fff"/>
+  </g>
+</svg>

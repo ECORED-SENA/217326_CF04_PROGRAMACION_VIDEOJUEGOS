@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="273.919" height="122.646" viewBox="0 0 273.919 122.646">
+  <g id="Grupo_1072263" data-name="Grupo 1072263" transform="translate(9317.403 9777.9)">
+    <rect id="Rectángulo_5265" data-name="Rectángulo 5265" width="59.642" height="59.642" rx="0.924" transform="translate(-9311.107 -9716.396)" fill="#dedcff" stroke="#8979f3" stroke-miterlimit="10" stroke-width="3"/>
+    <rect id="Rectángulo_5266" data-name="Rectángulo 5266" width="17.164" height="59.642" rx="0.924" transform="translate(-9199.438 -9716.396)" fill="#dedcff" stroke="#8979f3" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Trazado_101171" data-name="Trazado 101171" d="M240.147,626.957l34.128-59.068a.468.468,0,0,1,.811,0l34.128,59.068a.468.468,0,0,1-.405.7H240.553A.468.468,0,0,1,240.147,626.957Z" transform="translate(-9555.968 -10344.056)" fill="#d2fdff" stroke="#8979f3" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Trazado_101172" data-name="Trazado 101172" d="M240.147,626.957l34.128-59.068a.468.468,0,0,1,.811,0l34.128,59.068a.468.468,0,0,1-.405.7H240.553A.468.468,0,0,1,240.147,626.957Z" transform="translate(-9465.537 -10344.056)" fill="#d2fdff" stroke="#8979f3" stroke-miterlimit="10" stroke-width="3"/>
+    <circle id="Elipse_4379" data-name="Elipse 4379" cx="9.366" cy="9.366" r="9.366" transform="translate(-9290.652 -9695.94)" fill="#ffefbb" stroke="#8979f3" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Grupo_57504" data-name="Grupo 57504" transform="translate(-9135.293 -9739.284)">
+      <ellipse id="Elipse_4384" data-name="Elipse 4384" cx="19.334" cy="19.334" rx="19.334" ry="19.334" transform="translate(53.141)" fill="#8979f3"/>
+      <ellipse id="Elipse_4385" data-name="Elipse 4385" cx="19.334" cy="19.334" rx="19.334" ry="19.334" fill="#8979f3"/>
+      <ellipse id="Elipse_4380" data-name="Elipse 4380" cx="35.389" cy="35.389" rx="35.389" ry="35.389" transform="translate(10.515 11.753)" fill="#ffefbb" stroke="#8979f3" stroke-miterlimit="10" stroke-width="3"/>
+      <ellipse id="Elipse_4381" data-name="Elipse 4381" cx="8.475" cy="8.475" rx="8.475" ry="8.475" transform="translate(25.323 30.193)" fill="#fff" stroke="#8979f3" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="Elipse_4382" data-name="Elipse 4382" cx="8.475" cy="8.475" rx="8.475" ry="8.475" transform="translate(49.535 30.193)" fill="#fff" stroke="#8979f3" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="Elipse_4383" data-name="Elipse 4383" cx="7.236" cy="7.236" rx="7.236" ry="7.236" transform="translate(38.668 51.912)" fill="#8979f3"/>
+      <ellipse id="Elipse_4386" data-name="Elipse 4386" cx="2.765" cy="2.765" rx="2.765" ry="2.765" transform="translate(55.246 35.903)" fill="#8979f3"/>
+      <ellipse id="Elipse_4387" data-name="Elipse 4387" cx="2.765" cy="2.765" rx="2.765" ry="2.765" transform="translate(31.032 35.903)" fill="#8979f3"/>
+    </g>
+  </g>
+</svg>

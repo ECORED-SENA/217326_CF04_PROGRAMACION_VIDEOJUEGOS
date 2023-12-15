@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/217326_CF04_PROGRAMACION_VIDEOJUEGOS/](https://ecored-sena.github.io/217326_CF04_PROGRAMACION_VIDEOJUEGOS/)
 
 #
 
