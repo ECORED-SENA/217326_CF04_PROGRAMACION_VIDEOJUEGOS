@@ -243,8 +243,9 @@
       .col-lg-10
         figure.mb-4
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/k80cALwOEYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Modelado de personaje low poly parte 1
+
         
         .cajon.color-acento-contenido.p-4
           p.mb-0 Conozca sobre los diseños de personajes, su referencia y documentación para que un personaje funcione correctamente en el contexto de una historia.

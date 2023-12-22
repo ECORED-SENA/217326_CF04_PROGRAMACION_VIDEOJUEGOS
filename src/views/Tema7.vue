@@ -341,13 +341,14 @@
             figure
               img(src='@/assets/curso/temas/t7/img2.png', alt='') 
 
-          p.mb-4(data-aos="fade") Esta técnica es también conocida como cel animation, por el proceso que se requería para transferir los dibujos del papel y lápiz a una lámina transparente o acetato (cel) para ser pintada y posteriormente fotografiada con los fondos.
+          p.mb-4(data-aos="fade") Esta técnica es también conocida como #[em cel animation], por el proceso que se requería para transferir los dibujos del papel y lápiz a una lámina transparente o acetato (cel) para ser pintada y posteriormente fotografiada con los fondos.
 
-          .col-lg-10.mb-4(data-aos="fade-down")
-            figure
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video.
+          .col-lg-5.mb-5(data-aos="fade-down")
+            a.anexo(href="https://www.youtube.com/watch?v=kN-eCBAOw60" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] Disney y la cámara multiplano
 
           .row.mb-3
             .col-lg-6.mb-3(data-aos="fade-right")
@@ -365,13 +366,14 @@
                 figure
                   img(src='@/assets/curso/temas/t7/img4.png', alt='')
 
-          p.mb-4(data-aos="fade") Un ejemplo de esta técnica de Rotoscopia se puede ver el video musical Take on me del artista A-ha.
+          p.mb-4(data-aos="fade") Un ejemplo de esta técnica de Rotoscopia se puede ver el video musical #[em Take on me] del artista A-ha.
 
-          .col-lg-10.mb-4(data-aos="fade-down")
-            figure
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video.
+          .col-lg-5.mb-5(data-aos="fade-down")
+            a.anexo(href="https://www.youtube.com/watch?v=djV11Xbc914" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] A-ha - Take On Me
 
           p.mb-4(data-aos="fade") Esta categoría describe la animación creada a partir de la manipulación de objetos físicos que son movidos ligeramente y fotografiando fotograma a fotograma con el fin de dar la ilusión de estar vivos. Existen varias subcategorías de este estilo, principalmente por el medio o material usado para crear la animación (Laybourne, 1998).
 
@@ -383,19 +385,21 @@
 
           p.mb-4(data-aos="fade") Hoy en día, uno de los mayores estudios que usa esta técnica para realizar largometrajes es Laika (Coraline, Boxtrolls, Kubo). La subcategoría que predomina en sus películas se conoce como Animación de marionetas o puppet animation. Las marionetas tienen un esqueleto que les permite articularse e interactuar dentro de una escenografía cuidadosamente diseñada para desarrollar la historia.
 
-          .col-lg-10.mb-4(data-aos="fade-down")
-            figure
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video.
+          .col-lg-5.mb-5(data-aos="fade-down")
+            a.anexo(href="https://www.youtube.com/watch?v=FlUxuAG2Ac8" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] ParaNorman Featurette - Making Norman
 
-          p.mb-4(data-aos="fade") El Claymation se caracteriza por usar figuras en materiales maleables como la arcilla o la plastilina.
+          p.mb-4(data-aos="fade") El #[em Claymation] se caracteriza por usar figuras en materiales maleables como la arcilla o la plastilina.
 
-          .col-lg-10.mb-4(data-aos="fade-down")
-            figure
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video.
+          .col-lg-6.mb-5(data-aos="fade-down")
+            a.anexo(href="https://www.youtube.com/watch?v=dNJdJIwCF_Y" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] Fresh Guacamole by PES - Oscar Nominated Short
 
           p.mb-4(data-aos="fade") El Sand animation y el Oil Paint animation utilizan arena y pinturas u óleos respectivamente, sobre una superficie de vidrio o mesa de luz.
 
@@ -405,13 +409,14 @@
             figure
               img(src='@/assets/curso/temas/t7/img6.png', alt='') 
 
-          p.mb-4(data-aos="fade") Finalmente, la pixilación o pixilation es una forma de stop motion donde se usan personas y ambientes reales con el fin de crear videos irreales.
+          p.mb-4(data-aos="fade") Finalmente, la pixilación o #[em pixilation] es una forma de #[em stop motion] donde se usan personas y ambientes reales con el fin de crear videos irreales.
 
-          .col-lg-10.mb-4(data-aos="fade-down")
-            figure
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video.    
+          .col-lg-5.mb-5(data-aos="fade-down")
+            a.anexo(href="https://www.youtube.com/watch?v=_5IqwECL6bo&list=PLeb1dw3SJP3L4wJgLZkYQXXPFKUMKGh1S&index=3" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] Human Skateboard by PES    
 
 
     Separador
@@ -561,8 +566,8 @@
           .col-lg-10.mb-4(data-aos="fade-down")
             figure
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video. 
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/KCYEXQlnjVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              figcaption Video. #[em Walk]
 
     p.mb-4(data-aos="fade") En esta animación se observa en el frame 1 que el pie derecho (rojo) está pisando sobre su talón, y el pie izquierdo (azul) está en punta y los brazos se encuentran en sentido opuesto a su color correspondiente. Es decir, el brazo izquierdo se mueve en sentido contrario de la pierna izquierda. 
 
@@ -596,8 +601,8 @@
 
         figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/xWHfJLrI6GM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. #[em Jump]
 
     .division.mb-5
 
@@ -613,10 +618,13 @@
           figure
             img(src='@/assets/curso/temas/t7/fig32.png', alt='La imagen muestra dos modelos 3D de personajes en una escena de combate. Uno parece ser un esqueleto animado, posiblemente un enemigo o adversario en un contexto de juego o una narrativa de fantasía, que está en posición de ataque con una espada.')
 
-        figure(data-aos="fade-down")
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+        .row.justify-content-center  
+          .col-lg-6.mb-5(data-aos="fade-down")
+            a.anexo(href="https://www.youtube.com/watch?v=A2xeKArpnd8" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] #[em Skeleton Attack Animations Pack] para ilustrar mejor el movimiento
 
     .division.mb-5
 
@@ -634,8 +642,8 @@
 
         figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/vMvHI9_7pZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. #[em Down]
 
     .division.mb-5
 
@@ -653,8 +661,8 @@
 
         figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/OHYSoettZ6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. #[em Dead]
 
 
 

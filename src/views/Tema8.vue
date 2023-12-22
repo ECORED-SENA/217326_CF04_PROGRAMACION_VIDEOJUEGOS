@@ -55,15 +55,13 @@
 
     p.mb-4(data-aos="fade") Audacity es un programa de edición de audio, totalmente gratuito. Aquí se podrá ver un tutorial básico de cómo utilizarlo. 
 
-    .row.fondo-t8.align-items-center.py-4
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.align-items-center.justify-content-center
-          
-          .col-lg-10.mb-3
-            figure(data-aos="fade-down")
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video.
+    .row.align-items-center.justify-content-center(data-aos="fade-down") 
+      .col-lg-5.mb-3
+        a.anexo(href="https://youtu.be/ge6s3ZSO26U" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Video. Tutorial Audacity
 
 
     Separador

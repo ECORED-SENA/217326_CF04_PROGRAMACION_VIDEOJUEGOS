@@ -17,8 +17,9 @@
       .col-lg-10.mb-4(data-aos="fade-down")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/gzBXxQToqEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Instalación blender
+
 
     p.mb-4(data-aos="fade") Para el modelado 3D en cada software, lo primero que se tiene que entender es la escena, la cual es el espacio en que se va a contener y a ordenar todos los elementos tridimensionales. Para ello, el sistema de coordenadas se hace indispensable para poder navegar en la escena, los cuales como se menciona antes, van a proporcionar información de la dirección en que se navegará teniendo en cuenta lo siguiente:
 
@@ -195,8 +196,8 @@
       .col-lg-10(data-aos="fade-down")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/966QR6R6jQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Modelado de un personaje low poly parte 2
 
 
     Separador
@@ -284,8 +285,9 @@
       .col-lg-10.mb-4(data-aos="fade-down")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/BEiWXK1DxRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Creación de puente con #[em software] blender
+
 
 
 
