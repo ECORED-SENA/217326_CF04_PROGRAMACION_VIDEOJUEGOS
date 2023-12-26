@@ -17,7 +17,7 @@
               h4.mb-0.text-white 1
           .col-11.ps-0
             .bg-1.h-100.p-3
-              p.mb-0 Estos materiales permiten que se creen gran variedad de estilos, como vidrio, metal, tela, plástico, humo, fuego, madera y el material estilo cartoon. 
+              p.mb-0 Estos materiales permiten que se creen gran variedad de estilos, como vidrio, metal, tela, plástico, humo, fuego, madera y el material estilo #[em cartoon]. 
         .row.mb-3
           .col-1.pe-0
             .bg-3.h-100.p-1.px-2.d-flex.align-items-center.justify-content-center
@@ -60,7 +60,7 @@
       .col-lg-6.col-10.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/img3.png', alt='')
       .col-lg-6.mb-4(data-aos="fade-left")
-        p Para el texturizado se procede a sacar las uv, que diciéndolo de otra manera, son las costuras que tiene el personaje, como si de un vestido se tratase, con ello se puede hacer en 2D, lo que luego se quiere ver proyectado en 3D. Estos cortes son los que finalmente se posicionan en el apartado de la pestaña uv en el software de 3D.
+        p Para el texturizado se procede a sacar las uv, que diciéndolo de otra manera, son las costuras que tiene el personaje, como si de un vestido se tratase, con ello se puede hacer en 2D, lo que luego se quiere ver proyectado en 3D. Estos cortes son los que finalmente se posicionan en el apartado de la pestaña uv en el #[em software] de 3D.
         p En el ejemplo se puede observar un cubo 3D, con unas costuras de color rojo en sus filos, diseccionado y abierto como una caja que se va a plegar, a la derecha está dimensionado en 2D esa misma caja, pero esta vez abierta. Si se imagina  que estas piezas se doblan y se pegan, se creará el cubo. El cubo tiene 6 lados, que perfectamente se observan en la uv abierta, en 6 piezas unidas.
 
     p.mb-0(data-aos="fade") Estas uv quedan grabadas en el objeto 3D, lo que permitirá que las texturas que se vayan a aplicar hagan uso de las coordenadas del #[em uv mapping].
@@ -94,8 +94,8 @@
             .col-lg-3.col-5.col-md-4
               img.br-10(src='@/assets/curso/temas/t5/linea-img5.jpg', alt='') 
             .col-lg-9.col-7.col-md-8.d-flex.align-items-center
-              p Antecesora a la textura normal map, pero aun en uso, mediante escala de grises da la sensación de relieve, donde lo más blanco está más hacia adelante y lo más negro a profundidad.
-    
+              p Antecesora a la textura #[em normal map], pero aún en uso, mediante escala de grises da la sensación de relieve, donde lo más blanco está más hacia adelante y lo más negro a profundidad.
+
    
 </template>
 

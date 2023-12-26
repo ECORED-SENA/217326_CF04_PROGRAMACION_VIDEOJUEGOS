@@ -130,7 +130,7 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 36.] Escena del videojuego “The Shadow of Colossus”
           figure
-            img(src='@/assets/curso/temas/t8/fig36.png', alt='La imagen muestra una captura de pantalla de una escena del videojuego "The Shadow of Colossus". En la escena, se observa a un personaje mirando hacia una estructura colosal en la distancia, que es característica del estilo artístico y de la atmósfera épica del juego.') 
+            img(src='@/assets/curso/temas/t8/fig36.png', alt='La imagen muestra una captura de pantalla de una escena del videojuego The Shadow of Colossus. En la escena, se observa a un personaje mirando hacia una estructura colosal en la distancia, que es característica del estilo artístico y de la atmósfera épica del juego.') 
           figcaption Nota. Tomada de https://www.oio-7.top/ProductDetail.aspx?iid=130338508&pr=59.99   
       .row
         .col-md-4.mb-4.mb-md-0
@@ -139,16 +139,16 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 37.] Escena del videojuego “Medalla de honor”.
           figure
-            img(src='@/assets/curso/temas/t8/fig37.png', alt='La imagen titulada muestra una captura de pantalla de una escena del videojuego "Medalla de honor". En ella, se ve la perspectiva en primera persona del jugador sosteniendo un arma con soldados y explosiones al fondo.') 
+            img(src='@/assets/curso/temas/t8/fig37.png', alt='La imagen titulada muestra una captura de pantalla de una escena del videojuego Medalla de honor. En ella, se ve la perspectiva en primera persona del jugador sosteniendo un arma con soldados y explosiones al fondo.') 
           figcaption Nota. Tomada de https://www.vidaextra.com   
       .row
         .col-md-4.mb-4.mb-md-0
           p Por último, en esta imagen se muestra, claramente, la importancia del sonido en los videojuegos, como se puede observar, aunque los gráficos son pobres en comparación con los de ahora, el ambiente de tensión generado gracias a la música de fondo y a los efectos de sonido bien logrados, de los pasos que se arrastran y los gemidos de los zombies acercándose hacia el jugador, de las “criaturas lamedoras” entrando de improviso rompiendo los cristales de la ventana, o de la respiración del mismo Némesis que indica que está cerca aunque no lo veamos en escena; todos estos sonidos logran generar un buen susto, provocando ansiedad.
         .col-md-8
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 38.] Escenas del videojuego Resident Evil.
+            p.mb-0 #[b Figura 38.] Escenas del videojuego #[em Resident Evil].
           figure
-            img(src='@/assets/curso/temas/t8/fig38.png', alt='La imagen titulada muestra una captura de pantalla de una escena del videojuego "Resident Evil". En la imagen, se observa a un personaje femenino, enfrentando a varios zombies.') 
+            img(src='@/assets/curso/temas/t8/fig38.png', alt='La imagen titulada muestra una captura de pantalla de una escena del videojuego Resident Evil. En la imagen, se observa a un personaje femenino, enfrentando a varios zombies.') 
           figcaption Fuente:https://www.mobygames.com/images/shots/l/177261-resident-evil-2-playstation-screenshot-running-would-be-the.png 
 
     .row.justify-content-center

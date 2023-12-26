@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Arte conceptual, animación y edición de sonidos',
     descripcionCurso:
-      'En este componente formativo se pretende que el aprendiz conozca los elementos esenciales, tales como el desarrollo de personajes y la teoría del color. Incluye técnicas de modelado en 3D y texturizado, indispensables para vitalizar las creaciones. Asimismo, se imparten los principios básicos del rigging y la animación, junto con la integración del sonido, aspectos cruciales para animar y dotar de expresividad a los personajes en una dimensión tridimensional.',
+      'En este componente formativo se pretende que el aprendiz conozca los elementos esenciales, tales como el desarrollo de personajes y la teoría del color. Incluye técnicas de modelado en 3D y texturizado, indispensables para vitalizar las creaciones. Asimismo, se imparten los principios básicos del <em>rigging</em> y la animación, junto con la integración del sonido, aspectos cruciales para animar y dotar de expresividad a los personajes en una dimensión tridimensional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

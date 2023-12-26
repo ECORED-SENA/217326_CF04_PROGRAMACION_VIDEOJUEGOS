@@ -7,21 +7,21 @@
         span 4
       h1 Conceptos de 3D y modelado
 
-    p.mb-4(data-aos="fade") El modelado 3D consiste en representar cualquier elemento de manera tridimensional en un software de computador, basándose en la interrelación de 3 ejes, los cuales se denominan eje X, eje Y, eje Z.
+    p.mb-4(data-aos="fade") El modelado 3D consiste en representar cualquier elemento de manera tridimensional en un #[em software] de computador, basándose en la interrelación de 3 ejes, los cuales se denominan eje X, eje Y, eje Z.
 
     img.mb-4(src='@/assets/curso/temas/t4/img.png', alt='', data-aos="fade-down")
 
-    p.mb-4(data-aos="fade") El software que utilizaremos de ahora en adelante será #[em Blender], ver video de instalación del #[em software].
+    p.mb-4(data-aos="fade") El #[em software] que utilizaremos de ahora en adelante será Blender, le invitamos a ver el video de instalación:
 
     .row.justify-content-center 
       .col-lg-10.mb-4(data-aos="fade-down")
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/gzBXxQToqEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Instalación blender
+          figcaption Video. Instalación Blender
 
 
-    p.mb-4(data-aos="fade") Para el modelado 3D en cada software, lo primero que se tiene que entender es la escena, la cual es el espacio en que se va a contener y a ordenar todos los elementos tridimensionales. Para ello, el sistema de coordenadas se hace indispensable para poder navegar en la escena, los cuales como se menciona antes, van a proporcionar información de la dirección en que se navegará teniendo en cuenta lo siguiente:
+    p.mb-4(data-aos="fade") Para el modelado 3D en cada #[em software], lo primero que se tiene que entender es la escena, la cual es el espacio en que se va a contener y a ordenar todos los elementos tridimensionales. Para ello, el sistema de coordenadas se hace indispensable para poder navegar en la escena, los cuales como se menciona antes, van a proporcionar información de la dirección en que se navegará teniendo en cuenta lo siguiente:
 
     .row.fondo-t4.align-items-center.py-4.mb-4
       .col-lg-12.col-12.px-lg-5.px-4
@@ -36,7 +36,7 @@
             .bg-2.br-10.h-100.p-4
               img.m-auto.mb-4(src='@/assets/curso/temas/t4/tarj-img2.svg', alt='', style="max-width: 110px;")
               h5.mb-1 Eje Y
-              p.mb-0 Brindará información de la altura, es decir, de abajo a arriba. 
+              p.mb-0 Brindará información de la altura, es decir, de abajo arriba. 
           .col-lg-4.col-md-6.mb-3
             .bg-2.br-10.h-100.p-4
               img.m-auto.mb-4(src='@/assets/curso/temas/t4/tarj-img3.svg', alt='', style="max-width: 110px;")
@@ -49,7 +49,7 @@
       .col-lg-10.mb-4
         .bg-1.p-4.p-md-5.position-relative
           img.deco1(src='@/assets/curso/temas/t4/deco1.svg', alt='', style="max-width: 95px;")
-          p.mb-4 Para hacer representaciones se debe tener en cuenta varios aspectos como lo son los vértices (vertex), arista o bordes (edges), y caras (faces).
+          p.mb-4 Para hacer representaciones se debe tener en cuenta varios aspectos como lo son los vértices (#[em vertex]), arista o bordes (#[em edges]), y caras (#[em faces]).
           h4.mb-1 Vértices
           p.mb-4 Es el punto en el cual se puede definir el comienzo y el final de un segmento, es el punto primario de un modelo 3D. Al conectar 2 vértices se crea una línea, y al conectar más puntos se crean los polígonos. Estos puntos son los que finalmente acogen la información de texturas uv como a su vez, la información de peso influido por el sistema de huesos.
           img.deco2(src='@/assets/curso/temas/t4/deco2.svg', alt='', style="max-width: 90px;")
@@ -75,11 +75,11 @@
           .col-lg-4
             img(src='@/assets/curso/temas/t4/pest-img1.svg', alt='')
           .col-lg-8
-            p Para el modelado se emplean varias técnicas, en este caso se mencionarán las que pueden utilizarse en el software Blender. Para ello, se debe tener en cuenta la navegación en el software y el conocer ciertas acciones que se harán con el mouse en combinación con las teclas.
+            p Para el modelado se emplean varias técnicas, en este caso se mencionarán las que pueden utilizarse en el #[em software] Blender. Para ello, se debe tener en cuenta la navegación en el #[em software] y el conocer ciertas acciones que se harán con el #[em mouse] en combinación con las teclas.
       .tarjeta.bg-pest-a.p-4(titulo="<em>Box modeling</em>")
         .row.p-4
           h4 #[em Box modeling]
-          p Es la técnica más utilizada, se parte de una primitiva o malla preestablecida, como podría ser una esfera, un plano, un cubo, un cono, etc.  Las cuales vienen integradas en Blender, para lo cual una vez teniéndolas en el escenario se le agregaran polígonos, extruyendo, biselando, escalando caras, vértices y bordes.
+          p Es la técnica más utilizada, se parte de una primitiva o malla preestablecida, como podría ser una esfera, un plano, un cubo, un cono, etc.  Las cuales vienen integradas en Blender, para lo cual una vez teniéndolas en el escenario se le agregarán polígonos, extruyendo, biselando, escalando caras, vértices y bordes.
           .col-md-6.mb-3
             img(src='@/assets/curso/temas/t4/pest-img2-1.png', alt='')
           .col-md-6.mb-3
@@ -87,7 +87,7 @@
       .tarjeta.bg-pest-a.p-4(titulo="<em>Sculpting</em>")
         .row.p-4
           h4 #[em Sculpting]
-          p En este tipo de modelado se parte de un elemento del propio software, y en este caso el modelado se desarrolla como un esculpido en la vida real con masilla, es decir, aplicando presión, puliendo, cortando, suavizando. Con él se pueden conseguir resultados visuales muy detallados, los cuales funcionan para mostrar un tipo de estilo, pero no para animar, puesto que la cantidad de polígonos es demasiada para que cualquier hardware la soporte. 
+          p En este tipo de modelado se parte de un elemento del propio #[em software], y en este caso el modelado se desarrolla como un esculpido en la vida real con masilla, es decir, aplicando presión, puliendo, cortando, suavizando. Con él se pueden conseguir resultados visuales muy detallados, los cuales funcionan para mostrar un tipo de estilo, pero no para animar, puesto que la cantidad de polígonos es demasiada para que cualquier #[em hardware] la soporte. 
           .col-md-6.mb-3
             img(src='@/assets/curso/temas/t4/pest-img3-1.png', alt='')
           .col-md-6.mb-3
@@ -108,7 +108,7 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.1 Personajes
 
-    p.mb-4(data-aos="fade") Para la creación de personajes se utilizarán las herramientas de modificación con las que Blender dispone para elaborar en el modo de edición, entre ellas se tienen tres principales modos, vértice (vertex), borde (edge) y cara (face) con las cuales se puede modificar la malla, moviéndola, escalándola y rotándola, pero además de ello modificar la malla, precisamente el siguiente recurso permitirá conocer estas disposiciones. 
+    p.mb-4(data-aos="fade") Para la creación de personajes se utilizarán las herramientas de modificación con las que Blender dispone para elaborar en el modo de edición, entre ellas se tienen tres principales modos, vértice (#[em vertex]), borde (#[em edge]) y cara (#[em face]) con las cuales se puede modificar la malla, moviéndola, escalándola y rotándola, pero además de ello modificar la malla, precisamente el siguiente recurso permitirá conocer estas disposiciones. 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-5" data-aos="fade-down")
       div(titulo="Extruir")  
@@ -138,41 +138,41 @@
             img(src='@/assets/curso/temas/t4/acord-img3-2.png', alt='')
           .col-lg-10
             p.mb-0 Ejemplo de modelado herramienta Biselado
-      div(titulo="Loop cut") 
+      div(titulo="<em>Loop cut</em>") 
         .row.justify-content-center.mb-4
           .col-lg-9          
-            p #[b Loop cut (tecla ctrl + r):] Corta la malla alrededor, siguiendo un trayecto hasta cerrarse. 
+            p #[b #[em Loop cut] (tecla ctrl + r):] Corta la malla alrededor, siguiendo un trayecto hasta cerrarse. 
           .col-lg-10
             img.mb-4(src='@/assets/curso/temas/t4/acord-img4.png', alt='')
-            p.mb-0 Ejemplo de modelado herramienta Loop cut
-      div(titulo="Knife")  
+            p.mb-0 Ejemplo de modelado herramienta #[em Loop cut]
+      div(titulo="<em>Knife</em>")  
         .row.justify-content-center.mb-4
           .col-lg-9
-            p #[b Knife (tecla shift + barra espaciadora + K):] corta generando una nueva topología.
+            p #[b #[em Knife] (tecla #[em shift] + barra espaciadora + K):] corta generando una nueva topología.
           .col-lg-10
             img.mb-4(src='@/assets/curso/temas/t4/acord-img5.png', alt='')
             p.mb-0 Ejemplo de modelado herramienta Knife
-      div(titulo="Spin")  
+      div(titulo="<em>Spin</em>")  
         .row.justify-content-center.mb-4
           .col-lg-9.mb-4
-            p #[b Spin (tecla shift + barra espaciadora + 0):] genera extrusión, en circunferencia según el viewport.
+            p #[b #[em Spin] (tecla #[em shift] + barra espaciadora + 0):] genera extrusión, en circunferencia según el #[em viewport].
           .col-md-5.mb-4
             img(src='@/assets/curso/temas/t4/acord-img6-1.png', alt='')
           .col-md-5.mb-4
             img(src='@/assets/curso/temas/t4/acord-img6-2.png', alt='')
           .col-lg-10
             p.mb-0 Ejemplo de modelado herramienta Spin
-      div(titulo="Rip region")  
+      div(titulo="<em>Rip region</em>")  
         .row.justify-content-center.mb-4
           .col-lg-9
-            p #[b Rip región (tecla shift + barra espaciadora + v):] despega vértices o bordes de la malla.
+            p #[b #[em Rip] región (tecla #[em shift] + barra espaciadora + v):] despega vértices o bordes de la malla.
           .col-lg-10
             img.mb-4(src='@/assets/curso/temas/t4/acord-img7.png', alt='')
             p.mb-0 Ejemplo de modelado Rip region
-      div(titulo="Fill")  
+      div(titulo="<em>Fill</em>")  
         .row.justify-content-center.mb-4
           .col-lg-9
-            p #[b Fill (tecla F):] para rellenar espacios vacíos, se selecciona 3 vértices o bordes y se presiona la tecla F, con lo cual generará un polígono conectando dichos puntos.
+            p #[b #[em Fill] (tecla F):] para rellenar espacios vacíos, se selecciona 3 vértices o bordes y se presiona la tecla F, con lo cual generará un polígono conectando dichos puntos.
           .col-md-5.mb-4
             img(src='@/assets/curso/temas/t4/acord-img8-1.png', alt='')
           .col-md-5.mb-4
@@ -204,19 +204,23 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.2 Escenarios y #[em props]
 
-    p.mb-4(data-aos="fade") Los props son aquellos objetos y enseres que aparecen en un escenario a modo de atrezzo. A continuación, se hará una descripción sobre estos para ampliar cada uno de los conceptos. 
+    p(data-aos="fade") Las técnicas para crear escenarios son las mismas, salvo que en algunas ocasiones se utilizará un par de herramientas para crear más rápido terrenos o duplicar elementos en cantidad. Se utilizarán los modificadores anteriormente mencionados para generar geometrías y así crear un puente, en el cual se empleará un nuevo modificador que servirá básicamente para agilizar trabajo a la hora de crear elementos arquitectónicos o elementos modulares, es decir, que se repiten cíclicamente. Para ello, se debe crear un cubo y se aplicará biselado en sus bordes para darle suavizado, agregando dos segmentos en las características de biselado, tal como se puede observar en el siguiente recurso.
+
+    p.mb-5(data-aos="fade") Los escenarios en videojuegos son los ambientes o lugares que forman el espacio de juego, variando desde ciudades realistas hasta mundos fantásticos, y son cruciales para la narrativa y atmósfera del juego. Los props son objetos dentro de estos escenarios con los que los jugadores pueden interactuar, como armas o vehículos, y son clave para la jugabilidad, la interactividad y para enriquecer el entorno del juego.
+
+    //p.mb-5(data-aos="fade") Los #[em props] son aquellos objetos y enseres que aparecen en un escenario a modo de atrezzo. A continuación, se hará una descripción sobre estos para ampliar cada uno de los conceptos. 
 
     .fondo-subt.w-fit.pe-4.mb-4(data-aos="fade")
       .row.d-flex.align-items-center.text-white
         .col-auto 
           img(src='@/assets/curso/temas/t5/subt.svg', alt='', style="max-width: 85px;")
         .col-auto 
-          h3.mb-0 Props en los videojuegos
+          h3.mb-0 #[em Props] en los videojuegos
     
     .row.justify-content-center.mb-3
       .col-lg-7.mb-4(data-aos="fade-right")
-        p Todos los objetos utilizados por los personajes o NPC en un videojuego, exceptuando la vestimenta, son llamados props, estos elementos son necesarios para el desarrollo de la historia. Prop (proveniente de la palabra propiedad, hace referencia a un objeto que se le asigna a alguien), los props hacen resaltar características de cada personaje, un ejemplo de ello sería la trampilla de los Cazafantasmas, el neuralizador de #[em Hombres de Negro], la varita de #[em Harry Potter], el #[em hover board] de Marty McFly en #[em Volver al Futuro], entre otros.
-        p El artista conceptual toma referencias para la creación del tipo de objeto que busca, dotándolo de características que lo relacionen con su propietario y el contexto en que se desarrolla la historia, así lo detalla desde todos los puntos de vista posible, para que el modelador tenga certeza y claridad de lo que va a modelar. A continuación, se relacionan algunos escenarios props para videojuegos. 
+        p Todos los objetos utilizados por los personajes o NPC en un videojuego, exceptuando la vestimenta, son llamados #[em props], estos elementos son necesarios para el desarrollo de la historia. #[em Prop] (proveniente de la palabra propiedad, hace referencia a un objeto que se le asigna a alguien), los #[em props] hacen resaltar características de cada personaje, un ejemplo de ello sería la trampilla de los Cazafantasmas, el neuralizador de #[em Hombres de Negro], la varita de #[em Harry Potter], el #[em hover board] de Marty McFly en #[em Volver al Futuro], entre otros.
+        p El artista conceptual toma referencias para la creación del tipo de objeto que busca, dotándolo de características que lo relacionen con su propietario y el contexto en que se desarrolla la historia, así lo detalla desde todos los puntos de vista posible, para que el modelador tenga certeza y claridad de lo que va a modelar. A continuación, se relacionan algunos escenarios #[em props] para videojuegos. 
       .col-lg-5.col-10.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t4/img7.png', alt='')
 
@@ -235,7 +239,7 @@
           .col-md-6.col-lg-4.mb-3
             img(src='@/assets/curso/temas/t4/linea-img3-2.png', alt='')
           .col-11.col-lg-8
-            p.mb-0 Flynn se construyó a partir de geometrías básicas, 2 elementos props como ejemplo, en este caso son 2 de las armas del personaje Flynn, las cuales usará en la travesía para poder avanzar en su aventura.
+            p.mb-0 Flynn se construyó a partir de geometrías básicas, 2 elementos #[em props] como ejemplo, en este caso son 2 de las armas del personaje Flynn, las cuales usará en la travesía para poder avanzar en su aventura.
 
     .fondo-subt.w-fit.pe-4.mb-4(data-aos="fade")
       .row.d-flex.align-items-center.text-white
@@ -256,7 +260,7 @@
 
     SlyderB.mb-5(:datos="datosSlyder" data-aos="fade-down")
 
-    p.mb-4(data-aos="fade") Los escenarios en videojuegos son los ambientes o lugares que forman el espacio de juego, variando desde ciudades realistas hasta mundos fantásticos, y son cruciales para la narrativa y atmósfera del juego. Los props son objetos dentro de estos escenarios con los que los jugadores pueden interactuar, como armas o vehículos, y son clave para la jugabilidad, la interactividad y para enriquecer el entorno del juego.
+    p.mb-4(data-aos="fade") Los escenarios en videojuegos son los ambientes o lugares que forman el espacio de juego, variando desde ciudades realistas hasta mundos fantásticos, y son cruciales para la narrativa y atmósfera del juego. Los #[em props] son objetos dentro de estos escenarios con los que los jugadores pueden interactuar, como armas o vehículos, y son clave para la jugabilidad, la interactividad y para enriquecer el entorno del juego.
 
     .row.fondo2-t4.align-items-center.py-4.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -267,7 +271,7 @@
     .bg-2.p-4.py-5.mb-5
       .row.align-items-center.justify-content-center(data-aos="fade")
         .col-lg-10
-          p.mb-4 Con estas herramientas y estos pasos además del puente se puede crear infinidad de elementos en Blender, por ejemplo, árboles estilo lowpoly, en este caso se usan 3 conos y un cilindro bajando sus segmentos a 8 y, para que queden unidos se debe seleccionar Control + J para unirlos y luego se agrega array para crear un bosque rápido, en este caso se duplica el árbol un par de veces para posicionarse aleatoriamente.
+          p.mb-4 Con estas herramientas y estos pasos además del puente se puede crear infinidad de elementos en Blender, por ejemplo, árboles estilo #[em lowpoly], en este caso se usan 3 conos y un cilindro bajando sus segmentos a 8 y, para que queden unidos se debe seleccionar Control + J para unirlos y luego se agrega #[em array] para crear un bosque rápido, en este caso se duplica el árbol un par de veces para posicionarse aleatoriamente.
         .col-lg-5.col-md-5.mb-3
           img(src='@/assets/curso/temas/t4/img9.png', alt='')
         .col-lg-5.col-md-5.mb-3
@@ -279,14 +283,14 @@
           .col-lg-10
             SlyderC(:datos="datosSlyder3" data-aos="fade-down")
 
-    p.mb-4(data-aos="fade") Ver el video de la creación del puente en el #[em software Blender].
+    p.mb-4(data-aos="fade") Ver el video de la creación del puente en el #[em software] Blender.
 
     .row.justify-content-center 
       .col-lg-10.mb-4(data-aos="fade-down")
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/BEiWXK1DxRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Creación de puente con #[em software] blender
+          figcaption Video. Creación de puente con #[em software] Blender
 
 
 
@@ -318,19 +322,19 @@ export default {
       {
         titulo: 'Ejemplo de modelado de puente',
         texto:
-          'Se duplica con shift + D 4 veces para generar la base del puente.',
+          'Se duplica con <em>shift</em> + D 4 veces para generar la base del puente.',
         imagen: require('@/assets/curso/temas/t4/slider2-img1.png'),
       },
       {
         titulo: 'Ejemplo de modelado de puente',
         texto:
-          'Se duplica con shift + D 4 veces para generar la base del puente.',
+          'Se duplica con <em>shift</em> + D 4 veces para generar la base del puente.',
         imagen: require('@/assets/curso/temas/t4/slider2-img2.png'),
       },
       {
         titulo: 'Ejemplo de modelado de puente',
         texto:
-          'Como siguiente paso se crearán los tablones del puente, para ello se crea agregando un cubo a la escena, modificando solo el borde frontal para darle un efecto  rústico con biselado, ahora se aplicará el modificador array, que permitirá crear copias simultáneas una seguida de otra, para ello, lo primero que se debe realizar es la separación del tablón de las demás geometrías, por tanto, se selecciona el tablón completo y se presiona la tecla P, con ello saldrá una pestaña que dará la opción de separar, así, el objeto quedará separado de los demás y se podrá agregar el modificador array.',
+          'Como siguiente paso se crearán los tablones del puente, para ello se crea agregando un cubo a la escena, modificando solo el borde frontal para darle un efecto  rústico con biselado, ahora se aplicará el modificador <em>array</em>, que permitirá crear copias simultáneas una seguida de otra, para ello, lo primero que se debe realizar es la separación del tablón de las demás geometrías, por tanto, se selecciona el tablón completo y se presiona la tecla P, con ello saldrá una pestaña que dará la opción de separar, así, el objeto quedará separado de los demás y se podrá agregar el modificador <em>array</em>.',
         imagen: require('@/assets/curso/temas/t4/slider2-img3.png'),
       },
       {
@@ -356,13 +360,13 @@ export default {
       {
         titulo: 'Edificaciones',
         texto:
-          'Como también se puede jugar con loop cut para crear edificios rápidos, y luego agregarles array para generar una manzana de edificaciones.',
+          'Como también se puede jugar con <em>loop cut</em> para crear edificios rápidos, y luego agregarles <em>array</em> para generar una manzana de edificaciones.',
         imagen: require('@/assets/curso/temas/t4/slider3-img1.png'),
       },
       {
         titulo: 'Edificaciones',
         texto:
-          'Como también se puede jugar con loop cut para crear edificios rápidos, y luego agregarles array para generar una manzana de edificaciones.',
+          'Como también se puede jugar con <em>loop cut</em> para crear edificios rápidos, y luego agregarles <em>array</em> para generar una manzana de edificaciones.',
         imagen: require('@/assets/curso/temas/t4/slider3-img2.png'),
       },
       {
@@ -385,7 +389,7 @@ export default {
       {
         titulo: 'Edificaciones',
         texto:
-          'Se selecciona las teclas control + J para unirlos y agregar el modificador array, con esto se genera una sucesión de dichos edificios.',
+          'Se selecciona las teclas control + J para unirlos y agregar el modificador <em>array</em>, con esto se genera una sucesión de dichos edificios.',
         imagen: require('@/assets/curso/temas/t4/slider3-img6.png'),
       },
     ],

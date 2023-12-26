@@ -58,11 +58,11 @@
               img(src='@/assets/curso/temas/t3/pest-img5.png') 
           .col-lg-6
             h4 Texturas gráficas
-            p Se pueden capturar a través de una cámara fotográfica, un escáner, o recrearlos en papel a través de pintura u otros elementos, que posteriormente pueden ser capturados para ser digitalizados. Otra forma es una representación virtual del mundo real, realizada a través de software 2D o 3D, en la que se simulan formas geométricas, orgánicas, naturales y artificiales, con la finalidad de aplicar estas texturas en diferentes elementos, como personajes, escenarios, props, entre otros, dotándolos de mayor credibilidad y acercamiento al mundo real. 
+            p Se pueden capturar a través de una cámara fotográfica, un escáner, o recrearlos en papel a través de pintura u otros elementos, que posteriormente pueden ser capturados para ser digitalizados. Otra forma es una representación virtual del mundo real, realizada a través de #[em software] 2D o 3D, en la que se simulan formas geométricas, orgánicas, naturales y artificiales, con la finalidad de aplicar estas texturas en diferentes elementos, como personajes, escenarios, #[em props], entre otros, dotándolos de mayor credibilidad y acercamiento al mundo real. 
             p Estas texturas también facilitan los acabados de los objetos, ya que estas imágenes pueden repetirse infinitamente, por ejemplo, si se le quiere dar textura de tela (jean) a un pantalón, con un patrón repetitivo o una textura tipo madera se puede lograr el efecto, gracias a estas texturas.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade")
-      p.mb-0 #[b Tabla 1.] Simbolismo psicológico de los colores a través de emociones que se transmiten
+      p.mb-0 #[b Tabla 1.] Simbolismo psicológico de los colores a través de las emociones que transmiten
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-down")                     
       table            
         tr.tabla-b__header
@@ -72,63 +72,63 @@
         tr
           td.text-center(style="color:#000000") 
             b Negro
-          td.text-center(colspan=3) Sofisticación, seguridad, poder, sustancia, elegancia, autoridad.
-          td.text-center(colspan=3) Opresión, amenaza, frialdad, pesadez, luto, maldad.
+          td(colspan=3) Sofisticación, seguridad, poder, sustancia, elegancia, autoridad.
+          td(colspan=3) Opresión, amenaza, frialdad, pesadez, luto, maldad.
         tr  
           td.text-center(style="color:#9B9B9B") 
             b Gris        
-          td.text-center(colspan=3) Atemporalidad, fuerza, fiabilidad, neutralidad, balance, inteligencia.
-          td.text-center(colspan=3) Desconfianza, depresión, adormecimiento, mansedumbre, falta de energía.
+          td(colspan=3) Atemporalidad, fuerza, fiabilidad, neutralidad, balance, inteligencia.
+          td(colspan=3) Desconfianza, depresión, adormecimiento, mansedumbre, falta de energía.
         tr
           td.text-center(style="color:#C4C4C4") 
             b Blanco
-          td.text-center(colspan=3) Pureza, sofisticación, claridad, frescura, simplicidad, limpieza.
-          td.text-center(colspan=3) Esterilidad, frialdad, elitismo, hostilidad, aislamiento, vacío.
+          td(colspan=3) Pureza, sofisticación, claridad, frescura, simplicidad, limpieza.
+          td(colspan=3) Esterilidad, frialdad, elitismo, hostilidad, aislamiento, vacío.
         tr
           td.text-center(style="color:#DE3737") 
             b Rojo
-          td.text-center(colspan=3) Aventura, poder, pasión, acción, fuerza, intrepidez, amor.
-          td.text-center(colspan=3) Ira, desafío, peligro, advertencia, agresión, dolor.
+          td(colspan=3) Aventura, poder, pasión, acción, fuerza, intrepidez, amor.
+          td(colspan=3) Ira, desafío, peligro, advertencia, agresión, dolor.
         tr
           td.text-center(style="color:#EC942F") 
             b Naranja
-          td.text-center(colspan=3) Valor, confidencialidad, calidez, optimismo, entusiasmo, energía.
-          td.text-center(colspan=3) Privación, frustración, inmadurez,  frivolidad, letargo, ignorancia.
+          td(colspan=3) Valor, confidencialidad, calidez, optimismo, entusiasmo, energía.
+          td(colspan=3) Privación, frustración, inmadurez,  frivolidad, letargo, ignorancia.
         tr
           td.text-center(style="color:#F2CB0A") 
             b Amarillo
-          td.text-center(colspan=3) Optimismo, felicidad, extroversión, curiosidad, creatividad, calidez.
-          td.text-center(colspan=3) Irracionalidad, temor, precaución,  cobardía, ansiedad, frustración.
+          td(colspan=3) Optimismo, felicidad, extroversión, curiosidad, creatividad, calidez.
+          td(colspan=3) Irracionalidad, temor, precaución,  cobardía, ansiedad, frustración.
         tr
           td.text-center(style="color:#6CDF20") 
             b Verde 
-          td.text-center(colspan=3) Naturaleza, prosperidad, esperanza, suerte, armonía, frescura, salud.
-          td.text-center(colspan=3) Aburrimiento, estancación, envidia, insipidez, enfermedad, enervación.
+          td(colspan=3) Naturaleza, prosperidad, esperanza, suerte, armonía, frescura, salud.
+          td(colspan=3) Aburrimiento, estancación, envidia, insipidez, enfermedad, enervación.
         tr
           td.text-center(style="color:#14C9CF") 
             b Turquesa
-          td.text-center(colspan=3) Comunicación, verdad, claridad, calma, salud, poder, inspiración.
-          td.text-center(colspan=3) Jactancia, misterio, desconfianza,  reticencia, indiferencia.
+          td(colspan=3) Comunicación, verdad, claridad, calma, salud, poder, inspiración.
+          td(colspan=3) Jactancia, misterio, desconfianza,  reticencia, indiferencia.
         tr
           td.text-center(style="color:#0B5FF1") 
             b Azul
-          td.text-center(colspan=3) Simpatía, armonía, amistad, lógica, seguridad, serenidad, confianza.
-          td.text-center(colspan=3) Frialdad, indiferencia, antipatía, desánimo, inapetencia, descuido.
+          td(colspan=3) Simpatía, armonía, amistad, lógica, seguridad, serenidad, confianza.
+          td(colspan=3) Frialdad, indiferencia, antipatía, desánimo, inapetencia, descuido.
         tr
           td.text-center(style="color:#AF16E5") 
             b Violeta
-          td.text-center(colspan=3) Sabiduría, riqueza, imaginación, misterio, creatividad, lujo, fantasía.
-          td.text-center(colspan=3) Introversión, decadencia, mal humor, supresión, inferioridad, extravagancia.
+          td(colspan=3) Sabiduría, riqueza, imaginación, misterio, creatividad, lujo, fantasía.
+          td(colspan=3) Introversión, decadencia, mal humor, supresión, inferioridad, extravagancia.
         tr
           td.text-center(style="color:#E90DCC") 
             b Magenta
-          td.text-center(colspan=3) Transformación, creatividad, pasión, imaginación, balance, innovación.
-          td.text-center(colspan=3) Indignación, inconformidad, efimeridad, impulsividad, ligereza.
+          td(colspan=3) Transformación, creatividad, pasión, imaginación, balance, innovación.
+          td(colspan=3) Indignación, inconformidad, efimeridad, impulsividad, ligereza.
         tr
           td.text-center(style="color:#6D1111") 
             b Café
-          td.text-center(colspan=3) Seriedad, calidez, responsabilidad, terrosidad, soporte, autenticidad.
-          td.text-center(colspan=3) Falta de humor y sofisticación, suciedad, tristeza, conservadurismo.
+          td(colspan=3) Seriedad, calidez, responsabilidad, terrosidad, soporte, autenticidad.
+          td(colspan=3) Falta de humor y sofisticación, suciedad, tristeza, conservadurismo.
 
     .fondo-subt.w-fit.pe-4.mb-4(data-aos="fade")
       .row.d-flex.align-items-center.text-white
@@ -137,7 +137,7 @@
         .col-auto 
           h3.mb-0 Temperatura del color
 
-    SlyderC.mb-4(:datos="datosSlyder" data-aos="fade-down")
+    SlyderC.mb-2(:datos="datosSlyder" data-aos="fade-down")
 
     p.mb-4(data-aos="fade") Comparando las imágenes anteriores se puede percibir que cada una de ellas evoca emociones diferentes. ¿Por qué sucede esto?, la respuesta está en el uso de los colores. En la imagen de la izquierda se destacan los colores azules, violetas y algunos tintes de verde que dan la sensación de que se trata de un mundo nocturno o frío; en contraste con la imagen de la derecha en la que se destacan los colores amarillos, amarillos verdosos, naranjas, terrosos y ocres que brindan la ilusión de un mundo más cálido.
 
@@ -330,7 +330,7 @@
           .row.justify-content-center.mb-5(data-aos="fade-down")
             .col-lg-4.col-md-6.mb-5
               img.m-auto.mb-4(src='@/assets/curso/temas/t3/img5.png', alt='')
-              h5.mb-1 Mocromático
+              h5.mb-1 Monocromático
               p.mb-0 Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
             .col-lg-4.col-md-6.mb-5
               img.m-auto.mb-4(src='@/assets/curso/temas/t3/img6.png', alt='')

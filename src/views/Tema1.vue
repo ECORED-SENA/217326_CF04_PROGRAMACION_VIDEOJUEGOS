@@ -58,7 +58,7 @@
       .col-lg-6.d-flex
         .cajon.color-acento-contenido.p-5
           p Las formas básicas permiten ser usadas como base para el modelado y escultura 3D de elementos básicos y complejos, los cuales se pueden combinar entre sí. La importancia de las formas primarias es que son la base para las figuras del diseño en 3D. 
-          p.mb-0 Estas son usadas para el modelado y esculpido de los elementos 3D básicos y complejos, tales como: animales, plantas, figuras humanas, entornos, props, entre otros, empezando por elegir las formas primarias que más se aproximan a la forma final a la cual se quiere llegar.
+          p.mb-0 Estas son usadas para el modelado y esculpido de los elementos 3D básicos y complejos, tales como: animales, plantas, figuras humanas, entornos, #[em props], entre otros, empezando por elegir las formas primarias que más se aproximan a la forma final a la cual se quiere llegar.
 
 
     Separador
@@ -250,7 +250,7 @@
         .cajon.color-acento-contenido.p-4
           p.mb-0 Conozca sobre los diseños de personajes, su referencia y documentación para que un personaje funcione correctamente en el contexto de una historia.
 
-    p(data-aos="fade") Así como en las producciones en live action se acostumbra a realizar castings para seleccionar a los actores que mejor se adapten a los atributos físicos y psicológicos, desarrollados al momento de crear los personajes durante las etapas correspondientes al desarrollo de guion; en animación y videojuegos se lleva a cabo un proceso análogo denominado diseño de personajes, donde un equipo de artistas conceptuales se encargan de interpretar los personajes creados por los escritores para generar un casting que permita diseñar los atributos visuales que mejor se adapten a las características de cada uno.
+    p(data-aos="fade") Así como en las producciones en #[em live action] se acostumbra a realizar castings para seleccionar a los actores que mejor se adapten a los atributos físicos y psicológicos, desarrollados al momento de crear los personajes durante las etapas correspondientes al desarrollo de guion; en animación y videojuegos se lleva a cabo un proceso análogo denominado diseño de personajes, donde un equipo de artistas conceptuales se encargan de interpretar los personajes creados por los escritores para generar un casting que permita diseñar los atributos visuales que mejor se adapten a las características de cada uno.
     p.mb-4(data-aos="fade") Para realizar este proceso con éxito existe una serie de conocimientos indispensables y aspectos a tener en cuenta, los cuales serán descritos a continuación:
 
     .row.fondo2-t1.align-items-center.py-4.mb-5
@@ -261,7 +261,7 @@
             .p-5.bg-white(titulo="Referencias y documentación")
               .row.justify-content-center
                 .col-md-11
-                  p.mb-4 Para que un personaje funcione correctamente es indispensable tener en cuenta el contexto, la historia dentro de la cual se desarrolla y su propia historia individual que como ya se sabe, ha sido desarrollada desde la etapa del guion por parte de los escritores. Así como hacer un barrido sobre los orígenes del personaje, sus actitudes, aptitudes y motivaciones no solo los desarrollados en la etapa de escritura, sino los que puedan relacionarse con una época o un lugar específico. Por ejemplo, no es lo mismo diseñar un personaje que haya nacido en la década de 1950 en el continente latinoamericano, a uno que lo haya hecho en el siglo XXV en una colonia en Marte. Aunque en esta comparación en apariencia sea más fácil encontrar información sobre el primer caso, no quiere decir que para el segundo no sea relevante hacer una investigación sobre las condiciones conocidas del planeta y la misma historia y proyección de la raza humana, ya que esto permite obtener datos que brindan credibilidad al personaje.
+                  p.mb-4 Para que un personaje funcione correctamente es indispensable tener en cuenta el contexto, la historia dentro de la cual se desarrolla y su propia historia individual que, como ya se sabe, ha sido desarrollada desde la etapa del guion por parte de los escritores. Así como hacer un barrido sobre los orígenes del personaje, sus actitudes, aptitudes y motivaciones no solo los desarrollados en la etapa de escritura, sino los que puedan relacionarse con una época o un lugar específico. Por ejemplo, no es lo mismo diseñar un personaje que haya nacido en la década de 1950 en el continente latinoamericano, a uno que lo haya hecho en el siglo XXV, en una colonia en Marte. Aunque en esta comparación en apariencia sea más fácil encontrar información sobre el primer caso, no quiere decir que para el segundo no sea relevante hacer una investigación sobre las condiciones conocidas del planeta y la misma historia y proyección de la raza humana, ya que esto permite obtener datos que brindan credibilidad al personaje.
                   img.mb-4(src='@/assets/curso/temas/t1/pest2-img1.png', alt="") 
                   p Por otro lado, la recolección de referencias visuales es una práctica indispensable al momento de diseñar, puesto que por mucha experiencia que se tenga, absolutamente nadie tiene almacenados en su cerebro todos los referentes que necesita. Por lo tanto, no está de más construir un banco visual que ayude a alimentar la creatividad y analizar el trabajo que realizaron otros artistas para tratar de entender de qué manera afrontan los retos presentados en sus respectivas producciones.
                   p.mb-5 Una buena manera de gestionar las referencias es mediante PureRef, una aplicación gratuita que permite crear tableros y superponerlos a otras aplicaciones para tenerlos siempre a la vista y que puede ser descargada en el siguiente enlace:
@@ -377,7 +377,7 @@
           .col-lg-10.col-md-9.col-8.ps-0
             .bg-11.p-4.h-100
               h4.mb-1 La cantidad de polígonos
-              p.mb-0 Para dispositivos móviles la cantidad de polígonos debe oscilar entre 300 y 1.500 como máximo por malla, para consolas de antigua generación lo ideal es que oscilen entre 2.400 a 5.000 triángulos por malla, y para consolas de nueva generación y pcs gamer las mallas de personajes deberían tener 22.000 a 50.000 triángulos.
+              p.mb-0 Para dispositivos móviles la cantidad de polígonos debe oscilar entre 300 y 1.500 como máximo por malla, para consolas de antigua generación lo ideal es que oscilen entre 2.400 a 5.000 triángulos por malla, y para consolas de nueva generación y pcs #[em gamer] las mallas de personajes deberían tener 22.000 a 50.000 triángulos.
         .row.mb-4
           .col-lg-2.col-md-3.col-4.pe-0
             .bg-12.p-4.h-100.d-flex.align-items-center.justify-content-center
@@ -393,7 +393,7 @@
           .col-lg-10.col-md-9.col-8.ps-0
             .bg-11.p-4.h-100
               h4.mb-1 La cantidad de huesos en el modelo 
-              p.mb-0 Debe ser la mínima posible en la malla, pues esto que ayudará al rendimiento del motor de videojuegos, el conteo sería entre 15 y 60 huesos para un rendimiento óptimo.
+              p.mb-0 Debe ser la mínima posible en la malla, puesto que esto ayudará al rendimiento del motor de videojuegos, el conteo sería entre 15 y 60 huesos para un rendimiento óptimo.
         .row
           .col-lg-2.col-md-3.col-4.pe-0
             .bg-12.p-4.h-100.d-flex.align-items-center.justify-content-center

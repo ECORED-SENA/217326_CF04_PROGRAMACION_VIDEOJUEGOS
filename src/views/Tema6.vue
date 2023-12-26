@@ -14,8 +14,8 @@
         .col-lg-3.col-md-6.mb-4.mb-md-0(data-aos="fade-right")
           img.mb-4.m-auto(src='@/assets/curso/temas/t6/img.svg', alt='') 
         .col-lg-9.mb-4.mb-md-0(data-aos="fade-left")
-          p Hace referencia a la implementación de huesos y controladores a un objeto para animarlos. Puede ser muy avanzado en cuanto a los huesos controladores y restricciones o muy simple, según el uso en que se vaya a aplicar. De esta manera, el rigger deja las pautas hechas en un modelo para que el animador tome uso de ellas y pueda animar según lo que se requiera.
-          p Es decir, para que un elemento se anime y su malla se deforme de manera correcta, debe tener un sistema de huesos, por ende, el trabajo de un rigger es el de conectar a los modeladores con los animadores.
+          p Hace referencia a la implementación de huesos y controladores a un objeto para animarlos. Puede ser muy avanzado en cuanto a los huesos controladores y restricciones o muy simple, según el uso en que se vaya a aplicar. De esta manera, el #[em rigger] deja las pautas hechas en un modelo para que el animador tome uso de ellas y pueda animar según lo que se requiera.
+          p Es decir, para que un elemento se anime y su malla se deforme de manera correcta, debe tener un sistema de huesos, por ende, el trabajo de un #[em rigger] es el de conectar a los modeladores con los animadores.
           p Se debe tener conocimientos de anatomía y entender cómo se mueve el cuerpo humano para personajes humanos, así como también conocimiento de anatomía de cuadrúpedos y aves. Todo ello para entender cómo será el movimiento y generar a esos huesos las restricciones y libertades necesarias.
     
 
@@ -30,13 +30,13 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 3.] Ejemplo de rigging en una mano.
+          p.mb-0 #[b Figura 3.] Ejemplo de #[em rigging] en una mano.
         figure
-          img(src='@/assets/curso/temas/t6/fig3.png', alt='La imagen muestra una serie de bocetos que ilustran el concepto de línea de acción en el dibujo de figuras humanas, enfocándose en capturar la dinámica y el movimiento. Se ven ejemplos de diferentes poses y movimientos, como saltos y patadas, con líneas de guía y anotaciones que explican las técnicas de dibujo.') 
+          img(src='@/assets/curso/temas/t6/fig3.png', alt='La imagen es una ilustración del proceso de rigging en la animación 3D, mostrando un modelo de mano con un esqueleto digital. Este esqueleto está compuesto por huesos (líneas verdes) y articulaciones (puntos verdes), que son usados para animar la mano de manera realista') 
         figcaption Nota. Tomada de https://commons.wikimedia.org/wiki/File:Sintel-hand.png (Imagen con derechos Creative Commons Licences)
       .col-lg-10 
         .p-4.bg-2
-          p.mb-0 El departamento de #[em rigging] se convierte en un puente entre los departamentos de modelado y animación. Los modeladores entregan las geometrías, ya sean props o personajes, para que los riggers busquen la mejor solución técnica y artística que permitirá que los animadores hagan su trabajo. Los riggers también pueden intervenir en procesos posteriores a la animación, realizando simulaciones de ropa y cabello.
+          p.mb-0 El departamento de #[em rigging] se convierte en un puente entre los departamentos de modelado y animación. Los modeladores entregan las geometrías, ya sean #[em props] o personajes, para que los #[em riggers] busquen la mejor solución técnica y artística que permitirá que los animadores hagan su trabajo. Los #[em riggers] también pueden intervenir en procesos posteriores a la animación, realizando simulaciones de ropa y cabello.
 
     .fondo-subt.w-fit.pe-4.mb-4(data-aos="fade")
       .row.d-flex.align-items-center.text-white
@@ -49,13 +49,13 @@
       SlyderA.tema6
         .row.justify-content-center
           .col-md-10.mb-5
-            p.mb-4 Cursor 3D y puntos de pivote: el cursor 3D es una herramienta muy útil dentro del software Blender, dado que da un punto de referencia desde el cual transformar los objetos; también sirve para alinear unos objetos con otros. El manejo correcto de este ayudará a establecer de manera adecuada los puntos de pivote de los objetos.
+            p.mb-4 Cursor 3D y puntos de pivote: el cursor 3D es una herramienta muy útil dentro del #[em software] Blender, dado que da un punto de referencia desde el cual transformar los objetos; también sirve para alinear unos objetos con otros. El manejo correcto de este ayudará a establecer de manera adecuada los puntos de pivote de los objetos.
             .video.mb-4
               iframe(width="560" height="315" src="https://www.youtube.com/embed/sKRkKHedHmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               figcaption Video. Cursor 3D y puntos de pivote
         .row.justify-content-center
           .col-md-10.mb-5
-            p.mb-4 Sistema de coordenadas: dentro de cualquier software 3D se disponen diferentes sistemas de coordenadas que ayudarán a transformar los objetos según las necesidades que se tengan. Sistemas de coordenadas como Globales, Locales, Gimbal, entre otros, son los que se explican a continuación:
+            p.mb-4 Sistema de coordenadas: dentro de cualquier #[em software] 3D se disponen diferentes sistemas de coordenadas que ayudarán a transformar los objetos según las necesidades que se tengan. Sistemas de coordenadas como Globales, Locales, Gimbal, entre otros, son los que se explican a continuación:
             .video.mb-4
               iframe(width="560" height="315" src="https://www.youtube.com/embed/EncUzIuVeOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               figcaption Video. Sistema de coordenadas
@@ -114,8 +114,8 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Una vez realizado un análisis concienzudo de la geometría y las transformaciones de los objetos, se puede iniciar el proceso de construcción del rig. A continuación, se estructura un esqueleto para un bípedo, el cual es la estructura más usada en la industria de la animación y dará las bases suficientes para profundizar más adelante.
-        p Se debe segmentar el proceso de construcción debido a que este es complejo y las funcionalidades de cada parte del sistema de rig presentan desafíos distintos.
+        p Una vez realizado un análisis concienzudo de la geometría y las transformaciones de los objetos, se puede iniciar el proceso de construcción del #[em rig]. A continuación, se estructura un esqueleto para un bípedo, el cual es la estructura más usada en la industria de la animación y dará las bases suficientes para profundizar más adelante.
+        p Se debe segmentar el proceso de construcción debido a que este es complejo y las funcionalidades de cada parte del sistema de #[em rig] presentan desafíos distintos.
       .col-lg-4.col-8.mb-4.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/t6/img2.svg', alt='')
 
@@ -126,7 +126,7 @@
       .col-lg-10
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris px-lg-5")
           div(titulo="La columna")
-            p.mb-4 Es la primera parte que suele construirse dado que allí se encuentra el centro de gravedad del personaje y la raíz del esqueleto
+            p.mb-4 Es la primera parte que suele construirse dado que allí se encuentra el centro de gravedad del personaje y la raíz del esqueleto.
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/CixyvQt0_0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. La columna
@@ -135,7 +135,7 @@
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/F2KbWBoZNhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. Orientación en los huesos
-          div(titulo="El brazo y los layers")
+          div(titulo="El brazo y los <em>layers</em>")
             p.mb-4 La construcción de los brazos introduce nuevos conceptos, como el uso de diferentes cadenas de control y el uso de #[em layers] o capas para organizar las diferentes familias de huesos.
             p.mb-4 Anteriormente se habló de dos tipos de sistemas o esqueletos: sistemas de deformación y sistemas de control. Los sistemas de deformación son aquellos que, como su nombre lo indica, deformarán la geometría; por otro lado, los sistemas de control permitirán el funcionamiento.
             p.mb-4 Dentro de los sistemas de control tendremos sistemas FK (#[em Forward Kinematics]) o de cinemática directa y sistemas IK (#[em Inverse Kinematics]) o cinemática inversa.
@@ -152,7 +152,7 @@
               iframe(width="560" height="315" src="https://www.youtube.com/embed/iUoZV3SfUIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. Enlace entre cadena FK y DEF
           div(titulo="Creación de sistema IK")
-            p.mb-4 Por medio de un constraint de tipo IK se tendrá la posibilidad de controlar de manera inversa la cadena del brazo.
+            p.mb-4 Por medio de un #[em constraint] de tipo IK se tendrá la posibilidad de controlar de manera inversa la cadena del brazo.
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/rYuHxsySABQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. Creación de sistema IK
@@ -161,7 +161,7 @@
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/wpm2q_D-18s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. Enlace cadena IK a cadena DEF
-          div(titulo="Creación de un Switch IK/FK")
+          div(titulo="Creación de un <em>Switch</em> IK/FK")
             p.mb-4 Dado que la cadena de deformadores está controlada por los sistemas IK y FK, es necesario crear un #[em Switch] o interruptor que indique cuándo un sistema está encendido y cuándo el otro está apagado.
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/AmwZZVxcUxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -197,7 +197,7 @@
               iframe(width="560" height="315" src="https://www.youtube.com/embed/gEeN-TPRtGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. Creación de pierna IK y #[em Foot Roll]
           div(titulo="Enlace de cadenas de la pierna y <em>Switch</em> IK/FK")
-            p.mb-4 Finalizando la construcción de las piernas, se deben enlazar las diferentes cadenas por medio de constraints y crear el interruptor, al igual que se hizo en los brazos, para poder elegir qué sistema va a manipular la geometría.
+            p.mb-4 Finalizando la construcción de las piernas, se deben enlazar las diferentes cadenas por medio de #[em constraints] y crear el interruptor, al igual que se hizo en los brazos, para poder elegir qué sistema va a manipular la geometría.
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/O9DCc65APFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video. Enlace de cadena de la pierna IK y #[em Switch] IK/FK
@@ -217,12 +217,12 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 4.] Modo weight paint en Blender
+          p.mb-0 #[b Figura 4.] Modo #[em weight paint] en Blender
         figure
-          img(src='@/assets/curso/temas/t6/fig4.png', alt='La imagen una pantalla del software de modelado y animación 3D Blender, específicamente en el modo "Weight Paint". Esta herramienta se utiliza para definir cómo los huesos del esqueleto afectan a las mallas 3D; es decir, controla la influencia de los huesos sobre los vértices de la malla.') 
+          img(src='@/assets/curso/temas/t6/fig4.png', alt='La imagen muestra una pantalla del software de modelado y animación 3D Blender, específicamente en el modo Weight Paint. Esta herramienta se utiliza para definir cómo los huesos del esqueleto afectan a las mallas 3D; es decir, controla la influencia de los huesos sobre los vértices de la malla.') 
       .col-lg-10 
         .p-4.bg-1
-          p.mb-0 La dificultad surge en el hecho de que un rig se compone por varios huesos individuales y la mayoría de los huesos necesitarán influenciar tan solo ciertas partes de la geometría. Por ejemplo, se busca que el control de la muñeca solo afecte los vértices de esa área en la geometría, pero podría darse que afecte también ciertas áreas del antebrazo e incluso del hombro, lo cual no sería correcto (Pluralsight, 2014). 
+          p.mb-0 La dificultad surge en el hecho de que un #[em rig] se compone por varios huesos individuales y la mayoría de los huesos necesitarán influenciar tan solo ciertas partes de la geometría. Por ejemplo, se busca que el control de la muñeca solo afecte los vértices de esa área en la geometría, pero podría darse que afecte también ciertas áreas del antebrazo e incluso del hombro, lo cual no sería correcto (Pluralsight, 2014). 
 
     .row.fondo2-t6.align-items-center.py-4.mb-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -241,9 +241,9 @@
             .col-lg-3.col-6.mb-4.mb-md-0(data-aos="fade-right")
               img(src='@/assets/curso/temas/t6/img3.svg', alt='') 
             .col-lg-7.mb-4.mb-md-0(data-aos="fade-left")
-              p El pintar los pesos permite asignar manualmente la influencia que cada hueso tiene sobre la geometría. Esta tarea suele tomar tiempo, dado que siempre se deben buscar deformaciones adecuadas para el personaje y no existen reglas exactas para definir los valores de influencia. Tal vez no suene muy técnico, pero es un juego de prueba y error hasta lograr lo que se busca. De nada sirve que la configuración del sistema de #[em rig] sea la mejor; si el pesado no es el adecuado, todo el rig se verá afectado.
+              p El pintar los pesos permite asignar manualmente la influencia que cada hueso tiene sobre la geometría. Esta tarea suele tomar tiempo, dado que siempre se deben buscar deformaciones adecuadas para el personaje y no existen reglas exactas para definir los valores de influencia. Tal vez no suene muy técnico, pero es un juego de prueba y error hasta lograr lo que se busca. De nada sirve que la configuración del sistema de #[em rig] sea la mejor; si el pesado no es el adecuado, todo el #[em rig] se verá afectado.
 
-    p.mb-4(data-aos="fade") En los siguientes videos se explica cómo se realiza el proceso de skinning al personaje que se viene trabajando:
+    p.mb-4(data-aos="fade") En los siguientes videos se explica cómo se realiza el proceso de #[em skinning] al personaje que se viene trabajando:
 
     TabsC.tema6.color-acento-botones(data-aos="fade-down")
       .row.justify-content-center.py-3(titulo="Introducción al <em>skinning</em> parte I")
@@ -282,7 +282,7 @@
       .col-lg-5.col-md-6.mb-4(data-aos="fade-left")
         .bg-8.br-10.p-4.h-100
           img.mb-3(src='@/assets/curso/temas/t6/tarj-num2.svg', alt='', style="max-width: 75px;")
-          p.mb-0.text-white Las curvas deben ser intuitivas en su funcionamiento y conservar una coherencia entre ellas. Esto se conseguirá mediante el uso de formas sencillas y repetitivas, segmentando por colores y apoyándose más adelante con el proceso de scripting para conseguir que propiedades especiales de ciertos sistemas, como lo es el Switch IK / FK se pueda acceder fácilmente.
+          p.mb-0.text-white Las curvas deben ser intuitivas en su funcionamiento y conservar una coherencia entre ellas. Esto se conseguirá mediante el uso de formas sencillas y repetitivas, segmentando por colores y apoyándose más adelante con el proceso de scripting para conseguir que propiedades especiales de ciertos sistemas, como lo es el #[em Switch] IK / FK se pueda acceder fácilmente.
 
     p.mb-4(data-aos="fade") El siguiente video ilustra el proceso que se debe seguir para la creación de curvas de control:
 
@@ -296,7 +296,7 @@
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/NBk5OtTqwcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               figcaption Video. Curvas de control
 
-    p(data-aos="fade") Revisar los siguientes anexos que corresponden al rig del personaje Eleven y el Addon (Orient custom shape.zip) respectivamente, los cuales son usados durante la lección.
+    p(data-aos="fade") Revisar los siguientes anexos que corresponden al #[em rig] del personaje Eleven y el Addon (Orient custom shape.zip) respectivamente, los cuales son usados durante la lección.
 
 
     Separador
@@ -312,7 +312,7 @@
         .col-lg-3(data-aos="fade-left")
           img(src='@/assets/curso/temas/t6/img4.svg', alt='')
 
-    p(data-aos="fade") Cada uno de los gestos faciales debe modelarse o esculpirse, lo cual demanda paciencia y una continua búsqueda del appeal en el personaje. Puede surgir la pregunta ¿qué gestos o expresiones son las que deben modelarse? Pues existe una variedad infinita. Se debe categorizar en dos grupos: expresiones y visemas.
+    p(data-aos="fade") Cada uno de los gestos faciales debe modelarse o esculpirse, lo cual demanda paciencia y una continua búsqueda del #[em appeal] en el personaje. Puede surgir la pregunta ¿qué gestos o expresiones son las que deben modelarse? Pues existe una variedad infinita. Se debe categorizar en dos grupos: expresiones y visemas.
 
     p.mb-4(data-aos="fade") Las expresiones principales que se deben trabajar son: alegría, tristeza, enojo, sorpresa, disgusto y temor. 
 
@@ -327,11 +327,11 @@
           p.mb-0 Por otro lado, los visemas son formas significantes o visuales construidas por los labios. Usualmente se conocen como fonemas; sin embargo, es importante aclarar que los fonemas son sonidos, los visemas son formas (Osipa, 2010).
         .bg-9.brb-10.p-4
           img.mb-4.px-md-5(src='@/assets/curso/temas/t6/img6.svg', alt='')
-          p.mb-0 Los visemas son usados al momento de realizar el trabajo de sincronización labial o mejor conocido como lip sync. A diferencia de los fonemas, los visemas se basan en los ciclos que juegan entre sí: boca abierta/cerrada y labios contraídos/estirados. Los fonemas funcionan muy bien para la animación 2D, pero en el 3D se requiere un análisis de aquellos visemas o formas bucales esenciales para “vender” la idea de un diálogo.
+          p.mb-0 Los visemas son usados al momento de realizar el trabajo de sincronización labial o mejor conocido como #[em lip sync]. A diferencia de los fonemas, los visemas se basan en los ciclos que juegan entre sí: boca abierta/cerrada y labios contraídos/estirados. Los fonemas funcionan muy bien para la animación 2D, pero en el 3D se requiere un análisis de aquellos visemas o formas bucales esenciales para “vender” la idea de un diálogo.
 
-    p(data-aos="fade") Nuevamente la idea “menos es más” (principio Kiss) cobra relevancia al momento de trabajar en la construcción de blendshapes, dado que la mayoría de las expresiones faciales y visemas complejos se forman a partir de la unión de otros más básicos. Por ejemplo, es posible formar el visema de la letra “o” uniendo los de boca abierta y labios contraídos.
+    p(data-aos="fade") Nuevamente la idea “menos es más” (principio Kiss) cobra relevancia al momento de trabajar en la construcción de #[em blendshapes], dado que la mayoría de las expresiones faciales y visemas complejos se forman a partir de la unión de otros más básicos. Por ejemplo, es posible formar el visema de la letra “o” uniendo los de boca abierta y labios contraídos.
 
-    p.mb-4(data-aos="fade") En los videos siguientes se presenta el proceso de construcción de un rig facial, haciendo uso de huesos, blendshapes y algunos deformadores:
+    p.mb-4(data-aos="fade") En los videos siguientes se presenta el proceso de construcción de un #[em rig] facial, haciendo uso de huesos, #[em blendshapes] y algunos deformadores:
 
     TabsC.tema6.color-acento-botones(data-aos="fade-down")
       .row.justify-content-center.py-3(titulo="Mandíbula parte 1")
@@ -374,12 +374,12 @@
             .col-lg-2.col-3
               img(src='@/assets/curso/temas/t6/ico.svg', alt='')
             .col-lg-10.col-9
-              p.py-4.pe-4.mb-0 El proceso de #[em scripting] se puede definir como el desarrollo de una serie de líneas de código que son ejecutadas dentro de un software que pueden automatizar o extender las funciones de ciertos componentes.
+              p.py-4.pe-4.mb-0 El proceso de #[em scripting] se puede definir como el desarrollo de una serie de líneas de código que son ejecutadas dentro de un #[em software] que pueden automatizar o extender las funciones de ciertos componentes.
         p En el caso puntual del desarrollo de #[em rigging], este proceso puede identificarse como un paso necesario para mejorar, simular o extender las funciones del #[em rig], lo cual de otras maneras no sería posible. Un ejemplo podría ser el programar funciones en el #[em rig] de un automóvil para que, al moverse a lo largo del suelo, las ruedas giren automáticamente. 
         p.mb-4 En los videos siguientes se muestran los últimos detalles que se deben ajustar al #[em rig] para finalizar el proceso y organizar ciertas capas para construir un Panel de selección o Interfaz de Usuario (UI - #[em User Interface]) para un #[em rig], lo cual facilitará el trabajo del equipo de animación.
         .row
           .col-lg-11
-            .anexo(:href="obtenerLink('downloads/script_ui.py')" target="_blank")
+            a.anexo(:href="obtenerLink('/downloads/script_ui.py')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -421,7 +421,7 @@
           figcaption Video. #[em Riggify]
         .row
           .col-lg-9
-            .anexo(href="http://estudiandoblender.blogspot.com/2019/11/rigging-con-rigify.html" target="_blank")
+            a.anexo(href="http://estudiandoblender.blogspot.com/2019/11/rigging-con-rigify.html" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -461,10 +461,10 @@
                 img(src='@/assets/curso/temas/t6/fig7.png', alt='La imagen las herramientas circulares que rodean las articulaciones de un personaje modelo. Estos controles permiten la manipulación detallada de las partes del cuerpo para la animación, con diferentes colores que podrían indicar distintos ejes de rotación.')    
           .row.px-lg-4(numero="3" titulo="Paso tres")
             .col-lg-6.mb-4.mb-lg-0
-              p Se da clic en #[em Next] y Mixamo empezará el trabajo de #[em rigg]. Se debe esperar un poco mientras se procesa el modelo. Una vez terminado el proceso el personaje aparece con una animación idle de prueba, así se constata que quedó completo el #[em rigg].
+              p Se da clic en #[em Next] y Mixamo empezará el trabajo de #[em rigg]. Se debe esperar un poco mientras se procesa el modelo. Una vez terminado el proceso el personaje aparece con una animación #[em idle] de prueba, así se constata que quedó completo el #[em rigg].
             .col-lg-6
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 8.] Rig completo 
+                p.mb-0 #[b Figura 8.] #[em Rig] completo 
               figure
                 img(src='@/assets/curso/temas/t6/fig8.png', alt='La imagen presenta un personaje 3D con un rigging completamente aplicado. Se ven miniaturas de diferentes poses y animaciones en la parte superior de la interfaz, lo que indica que el personaje puede ser animado con una variedad de movimientos predefinidos disponibles en la plataforma.')              
           .row.px-lg-4(numero="4" titulo="Paso cuatro")
@@ -500,7 +500,7 @@
               p Para ello se trabaja el peso de los huesos sobre la malla, seleccionando en #[em Object mode] la malla, y luego clicando el menú #[em Weight paint].
             .col-lg-6
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 10.] Skinning en blender pintando pesos en vértices
+                p.mb-0 #[b Figura 10.] #[em Skinning] en blender pintando pesos en vértices
               figure
                 img(src='@/assets/curso/temas/t6/fig10.png', alt='La imagen muestra una captura de pantalla del proceso de skinning dentro del software Blender. Skinning es el proceso de asignar pesos a los vértices de un modelo 3D, que determinan cómo los huesos del esqueleto influencian la malla cuando se mueve.')     
           .row.px-lg-4(numero="2" titulo="Paso dos")
@@ -508,7 +508,7 @@
               p Antes que nada, hay que ir a #[em Preferences – addons], y activar el Script interface: #[em copy attributes] menú, para copiar información de pesos y así pegarla donde se necesite.
             .col-lg-6
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 11.] Addon script interface
+                p.mb-0 #[b Figura 11.] #[em Addon script interface]
               figure
                 img(src='@/assets/curso/temas/t6/fig11.png', alt='La imagen titulada muestra una captura de pantalla de la interfaz de usuario de Blender con un enfoque en un complemento o "addon".')      
           .row.px-lg-4(numero="3" titulo="Paso tres")
@@ -586,7 +586,7 @@ export default {
       {
         titulo: 'Paso 4',
         texto:
-          'En el modo edición, acomodamos los huesos para que compaginen con las partes del cuerpo de nuestro personaje. Lo realizamos seleccionando el hueso que queremos modificar y le damos mover con la tecla G. Ten en cuenta que si activamos en las opciones de tool <em>x-axis mirror</em>, lo que hagamos en un lado se hará en el otro, por ende, nos ahorrará la tarea de acomodar los huesos en la otra mitad del cuerpo.',
+          'En el modo edición, acomodamos los huesos para que compaginen con las partes del cuerpo de nuestro personaje. Lo realizamos seleccionando el hueso que queremos modificar y le damos mover con la tecla G. Ten en cuenta que si activamos en las opciones de <em>tool x-axis mirror</em>, lo que hagamos en un lado se hará en el otro, por ende, nos ahorrará la tarea de acomodar los huesos en la otra mitad del cuerpo.',
         imagen: require('@/assets/curso/temas/t6/paso-img4.png'),
       },
       {
