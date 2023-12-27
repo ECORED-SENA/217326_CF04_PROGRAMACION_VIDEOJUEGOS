@@ -304,7 +304,7 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: 'Escenario Super Mario 3D World',
+        titulo: 'Escenario <em>Super Mario 3D World</em>',
         imagen: require('@/assets/curso/temas/t4/slider-img1.png'),
       },
       {
@@ -314,7 +314,7 @@ export default {
         imagen: require('@/assets/curso/temas/t4/slider-img2.png'),
       },
       {
-        titulo: 'Arte conceptual escenario The last of us',
+        titulo: 'Arte conceptual escenario <em>The last of us</em>',
         imagen: require('@/assets/curso/temas/t4/slider-img3.png'),
       },
     ],

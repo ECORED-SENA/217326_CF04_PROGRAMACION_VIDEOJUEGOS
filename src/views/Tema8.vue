@@ -128,7 +128,7 @@
           p En esta escena, se muestra al personaje caminando hacia su destino bajo un cielo gris, donde lo único que se puede escuchar (de acuerdo con la imagen) es el sonido de sus pisadas en la hierba, la pesadez de su armadura (efectos especiales de audio) y el murmullo del viento (ambientación sonora), dando una inquietante sensación de tranquilidad, que roza con sentimientos de soledad y desolación (que debe ser acorde con la música de fondo), es decir, se hace uso de una paleta de sonidos sencilla pero que logra transmitir emociones específicas que logran el sumergirse en la historia. 
         .col-md-8
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 36.] Escena del videojuego “The Shadow of Colossus”
+            p.mb-0 #[b Figura 36.] Escena del videojuego “#[em The Shadow of Colossus]”
           figure
             img(src='@/assets/curso/temas/t8/fig36.png', alt='La imagen muestra una captura de pantalla de una escena del videojuego The Shadow of Colossus. En la escena, se observa a un personaje mirando hacia una estructura colosal en la distancia, que es característica del estilo artístico y de la atmósfera épica del juego.') 
           figcaption Nota. Tomada de https://www.oio-7.top/ProductDetail.aspx?iid=130338508&pr=59.99   
@@ -137,7 +137,7 @@
           p En esta imagen se presenta a un grupo de soldados luchando contra el enemigo en un día soleado. De acuerdo a esto, se podría decir que se puede escuchar el sonido tanto de nuestras balas como las de los enemigos, diferentes voces, gritos y/o diálogos de nuestros compañeros o enemigos, efectos de artillería pesada, explosiones, fuego, sonidos de pisadas, recarga de armas; creando un ambiente conflictivo que logra transmitirnos esa tensión, gracias a una paleta de sonidos más rica y variada que aporta mayor realismo a la escena.
         .col-md-8
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 37.] Escena del videojuego “Medalla de honor”.
+            p.mb-0 #[b Figura 37.] Escena del videojuego “#[em Medalla de honor]”.
           figure
             img(src='@/assets/curso/temas/t8/fig37.png', alt='La imagen titulada muestra una captura de pantalla de una escena del videojuego Medalla de honor. En ella, se ve la perspectiva en primera persona del jugador sosteniendo un arma con soldados y explosiones al fondo.') 
           figcaption Nota. Tomada de https://www.vidaextra.com   

@@ -73,14 +73,14 @@
         .row.justify-content-center
           .col-md-10
             h5 1872
-            p.mb-4 En este año cabe destacar que Leland Stanford, gobernador de California, Estados Unidos, contrató al fotógrafo e investigador inglés Eadward Muybridge para resolver la pregunta ¿Un caballo al galopar es capaz de mantener en algún momento sus 4 extremidades sin tocar el suelo. Tras varios intentos fallidos, Muybridge logra darle la respuesta a Standford, disponiendo múltiples cámaras para capturar el movimiento en fotografías (stop motion). Muybridge fue pionero en el estudio de la locomoción animal y creó el zoopraxinoscopio para proyectar una serie de imágenes que previamente había transferido a una cinta flexible perforada (The Atlantic, 2016).
+            p.mb-4 En este año cabe destacar que Leland Stanford, gobernador de California, Estados Unidos, contrató al fotógrafo e investigador inglés Eadward Muybridge para resolver la pregunta ¿Un caballo al galopar es capaz de mantener en algún momento sus 4 extremidades sin tocar el suelo. Tras varios intentos fallidos, Muybridge logra darle la respuesta a Standford, disponiendo múltiples cámaras para capturar el movimiento en fotografías (stop motion). Muybridge fue pionero en el estudio de la locomoción animal y creó el zoopraxinoscopio para proyectar una serie de imágenes que previamente había transferido a una cinta flexible perforada (#[em The Atlantic], 2016).
           .col-md-7
             p.mb-1 Estudio de locomoción humana y animal por Muybridge
             img(src='@/assets/curso/temas/t7/slider-img8.png', alt='')
         .row.justify-content-center
           .col-md-10
             h5 1879
-            p.mb-4 El francés Emile Reynaud fue el primero en crear una corta secuencia de acción dramática sobre una tira transparente de 30 pies de larga, llamada “Crystaloid”. Inventó el praxinoscopio, aparato basado en el zootropo, con mecanismos mejorados que luego desarrollaría aún más hasta convertirlo en lo que se conoció como “Teatro óptico” (1888). El trabajo de Reynaud abriría el camino para avances considerables por venir (Animacam, 2017).
+            p.mb-4 El francés Emile Reynaud fue el primero en crear una corta secuencia de acción dramática sobre una tira transparente de 30 pies de larga, llamada “#[em Crystaloid]”. Inventó el praxinoscopio, aparato basado en el zootropo, con mecanismos mejorados que luego desarrollaría aún más hasta convertirlo en lo que se conoció como “#[em Teatro óptico]” (1888). El trabajo de Reynaud abriría el camino para avances considerables por venir (#[em Animacam], 2017).
           .col-md-4
             p.mb-1 Praxinoscopio 
             img(src='@/assets/curso/temas/t7/slider-img9-1.png', alt='')
@@ -103,7 +103,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] Humorous Phases of Funny Faces.
+                p #[b Enlace web.] #[em Humorous Phases of Funny Faces].
         .row.justify-content-center
           .col-md-10
             h5 1908
@@ -114,7 +114,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] Fantasmagorie
+                p #[b Enlace web.] #[em Fantasmagorie]
         .row.justify-content-center
           .col-md-10
             h5 1910
@@ -131,18 +131,18 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] Little Nemo in Slumberland.
+                p #[b Enlace web.] #[em Little Nemo in Slumberland].
         .row.justify-content-center
           .col-md-10
             h5 1914
-            p.mb-4 Nuevamente, Winsor crea #[em Gertie] el dinosaurio mediante la técnica de los fotogramas clave hace la primera película animada donde el protagonista tiene una personalidad reconocible.
+            p.mb-4 Nuevamente, Winsor crea #[em Gertie el dinosaurio] mediante la técnica de los fotogramas clave hace la primera película animada donde el protagonista tiene una personalidad reconocible.
           .col-md-8
             img.mb-3(src='@/assets/curso/temas/t7/slider-img15.png', alt='')
             a.anexo(href="https://commons.wikimedia.org/wiki/File:Gertie_the_Dinosaur.ogv" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] Gertie the Dinosaur.
+                p #[b Enlace web.] #[em Gertie the Dinosaur].
         .row.justify-content-center
           .col-md-10
             h5 1916
@@ -160,7 +160,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] The sinking of the Lusitania.
+                p #[b Enlace web.] #[em The sinking of the Lusitania].
         .row.justify-content-center
           .col-md-10
             h5.mb-1 1919
@@ -179,7 +179,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] Alice's Wonderland
+                  p #[b Enlace web.] #[em Alice's Wonderland]
         .row.justify-content-center
           .col-md-10
             h5.mb-1 1926
@@ -198,13 +198,13 @@
             h5.mb-1 1932
             p.mb-4 Surge el Technicolor en la animación de la mano del cortometraje #[em Flowers and Trees] de Disney.
             h5.mb-1 1933
-            p.mb-4 Mediante el uso de #[em stop motion] Willis O’Brien crea su gorila para King Kong, también se estrena Los tres cerditos de Disney, la primera película del estudio que sugiere una personalidad animada.
+            p.mb-4 Mediante el uso de #[em stop motion] Willis O’Brien crea su gorila para #[em King Kong], también se estrena #[em Los tres cerditos] de Disney, la primera película del estudio que sugiere una personalidad animada.
             h5.mb-1 1934
             p.mb-4 Es presentado al público el Pato Donald en la película #[em The Wise Little Hen].
             h5.mb-1 1935
             p.mb-4 German Oskar Fischinger realiza la animación abstracta #[em Komposition in Blau].
             h5.mb-1 1937
-            p.mb-4 Es estrenada una de las películas más icónicas de Disney, Blancanieves y los siete enanos que es el primer largometraje animado en Technicolor con uso de sonido sincronizado.
+            p.mb-4 Es estrenada una de las películas más icónicas de Disney, #[em Blancanieves y los siete enanos] que es el primer largometraje animado en Technicolor con uso de sonido sincronizado.
           .col-md-7
             p.mb-1 #[em Snow White]
             img(src='@/assets/curso/temas/t7/slider-img20.png', alt='')
@@ -215,7 +215,7 @@
             h5.mb-1 1940
             p.mb-4 Disney estrena #[em Pinocho y Fantasía] que sorprendentemente reciben una pobre acogida por parte del público. En el mismo año William Hanna y Joseph Barbera crean y estrenan el primer animado de #[em Tom y Jerry].
             h5.mb-1 1941
-            p.mb-4 Wan Laiming y Wan Guchan dirigen en China el largometraje animado #[em Tie Shan Gong Zhu] (La princesa del abanico de hierro) mientras en los estudios de Walt Disney se desarrolla una huelga.
+            p.mb-4 Wan Laiming y Wan Guchan dirigen en China el largometraje animado #[em Tie Shan Gong Zhu] (#[em La princesa del abanico de hierro]) mientras en los estudios de Walt Disney se desarrolla una huelga.
             h5.mb-1 1942 
             p.mb-4 Se estrena el largometraje #[em Bamby] de Disney.
             h5.mb-1 1944
@@ -223,13 +223,13 @@
             h5.mb-1 1947
             p.mb-4 Tintín debuta en la animación con una versión en marionetas de #[em El cangrejo de las pinzas de oro].
             h5.mb-1 1948
-            p.mb-4 Es creado el largometraje de animación con marionetas #[em Cisaruv Slavik] (El ruiseñor del emperador) del cineasta checo Jiri Trnka.
+            p.mb-4 Es creado el largometraje de animación con marionetas #[em Cisaruv Slavik] (#[em El ruiseñor del emperador]) del cineasta checo Jiri Trnka.
         .row.justify-content-center
           .col-md-10
             h5.mb-1 1949
             p.mb-4 El coyote y el correcaminos de Chuck Jones aparecen por primera vez en el cortometraje #[em Fast and Furry-ous].
             h5.mb-1 1950
-            p.mb-4 Es estrenada #[em Cinderella] (La cenicienta) de Disney; y es estrenado el primer dibujo animado creado para televisión en Estados Unidos.
+            p.mb-4 Es estrenada #[em Cinderella] (#[em La cenicienta]) de Disney; y es estrenado el primer dibujo animado creado para televisión en Estados Unidos.
             h5.mb-1 1952
             p.mb-4 Es introducida la técnica de la pixilación por parte de Norman McLaren en la película #[em Neighbours].
             h5.mb-1 1953
@@ -245,14 +245,14 @@
             h5.mb-1 1960
             p.mb-4 Fred Flinstone y Barney Rubble (Pedro Picapiedra y Pablo Marmol) son presentados en la serie animada #[em The Flinstones] por William Hanna y Joseph Barbera.
             h5.mb-1 1961
-            p.mb-4 Se produce en #[em China Danaotian Gong] (La rebelión del rey Kun Fu Sung).
+            p.mb-4 Se produce en #[em China Danaotian Gong] (#[em La rebelión del rey Kun Fu Sung]).
             h5.mb-1 1963
             p.mb-2 La serie #[em Tetsuwan Atomu] (Astro Boy) abre las puertas a muchas otras series de animación japonesa.
             p.mb-4 El francés Serge Danot crea la serie #[em Le manège enchanté].
             h5.mb-1 1964
             p.mb-4 Se crea la película experimental #[em Cibernetik 5.3] por John Stehura.
             h5.mb-1 1965
-            p.mb-4 Se crea la película animada de marionetas #[em Ruka] (La mano) del checo Jiri Trinka como una forma de protesta contra la represión de los regímenes totalitarios.
+            p.mb-4 Se crea la película animada de marionetas #[em Ruka] (#[em La mano]) del checo Jiri Trinka como una forma de protesta contra la represión de los regímenes totalitarios.
             h5.mb-1 1966
             p.mb-4 Muere Walt Disney a la edad de 65 años sin ver finalizado Disneyworld. En la televisión británica aparece #[em Camberwick Green].
         .row.justify-content-center
@@ -373,7 +373,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Video.] A-ha - Take On Me
+                p #[b Video.] A-ha - #[em Take On Me]
 
           p.mb-4(data-aos="fade") Esta categoría describe la animación creada a partir de la manipulación de objetos físicos que son movidos ligeramente y fotografiando fotograma a fotograma con el fin de dar la ilusión de estar vivos. Existen varias subcategorías de este estilo, principalmente por el medio o material usado para crear la animación (Laybourne, 1998).
 
@@ -390,7 +390,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Video.] ParaNorman Featurette - Making Norman
+                p #[b Video.] ParaNorman Featurette - #[em Making Norman]
 
           p.mb-4(data-aos="fade") El #[em Claymation] se caracteriza por usar figuras en materiales maleables como la arcilla o la plastilina.
 
@@ -399,7 +399,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Video.] Fresh Guacamole by PES - Oscar Nominated Short
+                p #[b Video.] #[em Fresh Guacamole] by PES - Oscar Nominated Short
 
           p.mb-4(data-aos="fade") El #[em Sand animation] y el #[em Oil Paint animation] utilizan arena y pinturas u óleos respectivamente, sobre una superficie de vidrio o mesa de luz.
 
@@ -416,7 +416,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Video.] Human Skateboard by PES    
+                p #[b Video.] #[em Human Skateboard] by PES
 
 
     Separador
