@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <g id="Grupo_55531" data-name="Grupo 55531" transform="translate(0 -0.466)">
+    <rect id="Rectángulo_5247" data-name="Rectángulo 5247" width="94" height="94" transform="translate(0 0.466)" fill="none"/>
+    <g id="parquet" transform="translate(11.619 11.183)">
+      <g id="Grupo_55526" data-name="Grupo 55526" transform="translate(1.554 1.554)">
+        <path id="Trazado_101163" data-name="Trazado 101163" d="M0,0H68.393V68.393H0Z" fill="#e1ddfc"/>
+        <path id="Trazado_101117" data-name="Trazado 101117" d="M331.4,28.37,322.6,19.577l8.447-8.447H347.5v1.138l-7.309,7.309Z" transform="translate(-279.106 -11.13)" fill="#e1ddfc"/>
+      </g>
+      <path id="Trazado_101118" data-name="Trazado 101118" d="M205.468,28.37l-8.793-8.793,8.447-8.447h17.586l-8.447,8.447Z" transform="translate(-169.209 -9.576)" fill="#f1bf5e"/>
+      <path id="Trazado_101119" data-name="Trazado 101119" d="M79.538,28.37l-8.793-8.793,8.447-8.447H96.778Z" transform="translate(-60.865 -9.576)" fill="#8979f3"/>
+      <path id="Trazado_101120" data-name="Trazado 101120" d="M401.671,96.508l-16.1-16.1,8.793-8.793,7.309,7.309Z" transform="translate(-331.723 -61.612)" fill="#f1bf5e"/>
+      <rect id="Rectángulo_5246" data-name="Rectángulo 5246" width="12.435" height="27.979" transform="translate(36.26 18.794) rotate(-45)" fill="#8979f3"/>
+      <path id="Trazado_101164" data-name="Trazado 101164" d="M0,0H12.435V27.979H0Z" transform="translate(18.97 18.795) rotate(-45)" fill="#e1ddfc"/>
+      <g id="Grupo_55527" data-name="Grupo 55527" transform="translate(1.554 10.001)">
+        <path id="Trazado_101121" data-name="Trazado 101121" d="M30.446,100.191,21.655,91.4,11.13,80.873V79.94l8.325-8.327,8.793,8.793L39.24,91.4Z" transform="translate(-11.13 -71.613)" fill="#f1bf5e"/>
+        <path id="Trazado_101122" data-name="Trazado 101122" d="M205.468,241.859l-8.793-8.793,10.991-10.991,8.793-8.793,8.793,8.793-10.991,10.991Z" transform="translate(-170.763 -193.497)" fill="#f1bf5e"/>
+      </g>
+      <path id="Trazado_101123" data-name="Trazado 101123" d="M11.13,241.392V223.806l10.525-10.525,8.792,8.793L19.455,233.065Z" transform="translate(-9.576 -183.496)" fill="#8979f3"/>
+      <path id="Trazado_101124" data-name="Trazado 101124" d="M401.671,375.328h-4.517l-11.585-11.585,8.793-8.793,7.309,7.309Z" transform="translate(-331.723 -305.38)" fill="#f1bf5e"/>
+      <path id="Trazado_101125" data-name="Trazado 101125" d="M288.811,375.328H271.225L259.64,363.743l8.793-8.793Z" transform="translate(-223.381 -305.38)" fill="#8979f3"/>
+      <path id="Trazado_101126" data-name="Trazado 101126" d="M39.833,375.328H22.247L11.13,364.21v-.933l8.325-8.327Z" transform="translate(-9.576 -305.38)" fill="#f1bf5e"/>
+      <path id="Trazado_101127" data-name="Trazado 101127" d="M69.948,0H1.554A1.554,1.554,0,0,0,0,1.554V69.948A1.554,1.554,0,0,0,1.554,71.5H69.948A1.554,1.554,0,0,0,71.5,69.948V1.554A1.554,1.554,0,0,0,69.948,0ZM48.488,68.393,38.458,58.363l6.595-6.595L61.678,68.393ZM49.746,3.109,43.956,8.9l0,0L36.259,16.6,29.665,10l6.892-6.892h13.19Zm4.1,53.056L47.251,49.57,64.837,31.984l3.556,3.556v6.077Zm-17.586,0L29.665,49.57l9.892-9.892h0l7.693-7.693,6.595,6.595L43.954,48.47h0ZM48.35,28.686l-9.892-9.892L45.052,12.2,62.638,29.785,56.044,36.38l-7.693-7.693ZM21.97,39.678l7.694-7.694,6.595,6.595L26.367,48.47l-7.694,7.694L12.078,49.57Zm5.5-27.478,7.694,7.694,0,0,9.889,9.889L38.458,36.38,20.872,18.794ZM9.88,12.2l7.694,7.694h0l9.891,9.891L20.871,36.38l-7.692-7.694-.008-.007L3.286,18.794Zm0,17.586L3.109,36.558V23.014ZM3.109,40.954l8.97-8.97,6.594,6.594L3.109,54.143Zm65.285,5.06v7.112L64.837,49.57Zm0-14.87-2.457-2.457h0l-9.891-9.891L62.639,12.2l5.754,5.754ZM64.837,10l3.556-3.556v7.112Zm-3.3-1.1h0L53.846,16.6,47.251,10l6.892-6.892h13.19ZM32.16,3.109,26.367,8.9h0L18.673,16.6,12.078,10,18.97,3.109H32.16Zm-17.586,0L3.109,14.575V3.109ZM3.109,62.582l5.81,5.811H3.109Zm.177-4.219L9.88,51.768,26.505,68.393H13.315ZM30.9,68.393,20.871,58.363l6.595-6.595L44.092,68.393Zm37.492,0H66.075L56.044,58.363l6.595-6.595,5.754,5.754Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="106" viewBox="0 0 106 106">
+  <defs>
+    <filter id="Elipse_4723" x="0" y="0" width="106" height="106" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.902"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Trazado_818114" data-name="Trazado 818114" d="M18.917,0,0,17.269l7.3,21.9,19.073-17.5Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1.218" x2="0.05" y2="1.218" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f87fec"/>
+      <stop offset="1" stop-color="#fdcde8"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_818115" data-name="Trazado 818115" d="M14.236,0l7.457,21.663,21.35,8.478L35.744,8.4Z" transform="translate(-14.236 0)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-0.337" y1="1.309" x2="-0.303" y2="1.309" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb80e3"/>
+      <stop offset="1" stop-color="#db5271"/>
+    </linearGradient>
+    <clipPath id="clip-path-3">
+      <path id="Trazado_818116" data-name="Trazado 818116" d="M5.494,33.807,27.08,42.363,45.917,24.781,24.567,16.3Z" transform="translate(-5.494 -16.303)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-0.181" y1="1" x2="-0.148" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#01e2eb"/>
+      <stop offset="1" stop-color="#4f45dd"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1072560" data-name="Grupo 1072560" transform="translate(-1142.833 -119.5)">
+    <g transform="matrix(1, 0, 0, 1, 1142.83, 119.5)" filter="url(#Elipse_4723)">
+      <g id="Elipse_4723-2" data-name="Elipse 4723" transform="translate(16.5 15.5)" fill="none" stroke="#fff" stroke-width="6">
+        <circle cx="36.5" cy="36.5" r="36.5" stroke="none"/>
+        <circle cx="36.5" cy="36.5" r="33.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_1072225" data-name="Grupo 1072225" transform="translate(1171.971 147.639)">
+      <g id="Grupo_1072220" data-name="Grupo 1072220" transform="translate(0 0)">
+        <g id="Grupo_1072219" data-name="Grupo 1072219" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_375890" data-name="Rectángulo 375890" width="26.374" height="39.167" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <g id="Grupo_1072222" data-name="Grupo 1072222" transform="translate(18.917 0)">
+        <g id="Grupo_1072221" data-name="Grupo 1072221" clip-path="url(#clip-path-2)">
+          <rect id="Rectángulo_375891" data-name="Rectángulo 375891" width="39.819" height="40.337" transform="translate(-12.796 7.109) rotate(-29.055)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <g id="Grupo_1072224" data-name="Grupo 1072224" transform="translate(7.3 21.663)">
+        <g id="Grupo_1072223" data-name="Grupo 1072223" clip-path="url(#clip-path-3)">
+          <rect id="Rectángulo_375892" data-name="Rectángulo 375892" width="40.423" height="26.06" transform="translate(0)" fill="url(#linear-gradient-3)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
