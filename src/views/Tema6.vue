@@ -516,7 +516,7 @@
               p Se selecciona la malla desde el menú #[em Object mode].
             .col-lg-6
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 12.] Selección object mode
+                p.mb-0 #[b Figura 12.] Selección #[em object mode]
               figure
                 img(src='@/assets/curso/temas/t6/fig12.png', alt='La imagen se observa un modelo 3D de un personaje en el modo de selección de objetos ("Object Mode").')       
           .row.px-lg-4(numero="4" titulo="Paso cuatro")
